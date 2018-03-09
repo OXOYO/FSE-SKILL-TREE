@@ -1,2 +1,2 @@
-# F2E-SKILL-TREE
-前端技能树梳理
+# FSE-SKILL-TREE
+全栈工程师技能树梳理

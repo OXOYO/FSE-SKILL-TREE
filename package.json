@@ -1,0 +1,20 @@
+{
+  "name": "fse-skill-tree",
+  "version": "1.0.0",
+  "description": "全栈工程师技能树梳理",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "convert": "node ./utils/convert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OXOYO/FSE-SKILL-TREE.git"
+  },
+  "author": "OXOYO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OXOYO/FSE-SKILL-TREE/issues"
+  },
+  "homepage": "https://github.com/OXOYO/FSE-SKILL-TREE#readme"
+}

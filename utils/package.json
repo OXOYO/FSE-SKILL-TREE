@@ -4,7 +4,8 @@
   "description": "全栈工程师技能树梳理",
   "main": ".eslintrc.js",
   "scripts": {
-    "convert": "node ./utils/convert.js",
+    "start": "node ./convert.js",
+    "convert": "node ./convert.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

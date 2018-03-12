@@ -110,7 +110,44 @@ module.exports = [
               site: '',
               github: ''
             },
-            children: []
+            children: [
+              {
+                name: 'LESS',
+                title: 'LESS',
+                description: '',
+                type: 'node',
+                category: 'language',
+                url: {
+                  site: '',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'SASS',
+                title: 'SASS',
+                description: '',
+                type: 'node',
+                category: 'language',
+                url: {
+                  site: '',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Stylus',
+                title: 'Stylus',
+                description: '',
+                type: 'node',
+                category: 'language',
+                url: {
+                  site: '',
+                  github: ''
+                },
+                children: []
+              }
+            ]
           }
         ]
       },

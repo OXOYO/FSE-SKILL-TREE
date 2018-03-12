@@ -6,6 +6,9 @@
 
 const fs = require('fs')
 const config = require('./config')
+const raphael = require('raphael')
+const cheerio = require('cheerio')
+const jsdom = require('jsdom')
 
 // 数据源
 const dataSource = require(config.dataSource)
@@ -63,7 +66,8 @@ const formatMsg = function (target) {
   let res = target + template.substr(len, template.length)
   return res
 }
-const convert = function () {
+// 转为markdonw文件
+const convert2MD = function () {
   if (!dataSource.length) {
     console.warn('The data source cannot be empty!')
   }
@@ -177,5 +181,34 @@ const writeFile = function (fileName, content, filePath) {
   })
 }
 
+const convert2Img = function () {
+  if (!dataSource.length) {
+    console.warn('The data source cannot be empty!')
+  }
+  let maxWidth = 1200
+  let maxHeight = 2000
+  let document = jsdom.jsdom()
+  let svg = d3.select(document.body).append('svg')
+    .attr('xmlns', 'http://www.w3.org/2000/svg')
+    .attr('width', maxWidth)
+    .attr('height', maxHeight)
+  // 创建画布
+  let paper = raphael(0, 0, maxWidth, maxHeight)
+
+  const svg2png = require("svg2png");
+  svg2png(paper, {
+    width: maxWidth,
+    height: maxHeight
+  }).then((buffer) => {
+    fs.writeFile('test.png', buffer)
+  })
+  .catch(e => console.error(e))
+}
+
 // 执行转换
-convert()
+(function () {
+  // 转为markdown文件
+  convert2MD()
+  // 转为脑图图片
+  convert2Img()
+})()

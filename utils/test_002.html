@@ -1,0 +1,145 @@
+<html>
+<head>
+  <title>raphael流程图-http://my.oschina.net/lichaoqiang/</title>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/raphael/2.2.7/raphael.min.js"></script>
+  <style type="text/css">
+    html, fieldet, legend, div, span, a, form, body{ margin: 0;padding: 0;  }
+    body{ font-size:12px;}
+    #holder{top: 0px;left: 0px;right: 0px;bottom: 0px; position: absolute;z-index: 999;height: auto;}
+    .item{position: absolute; top: 0px; z-index: 0; padding: 0px; height: 30px; width: 200px;}
+  </style>
+</head>
+<body>
+<div id="holder"></div>
+<div id="item1" class="item" data-item='{"nodeId":"1","nextNode":"2"}' title="请假申请">请假申请</div>
+<div id="item2" class="item" data-item='{"nodeId":"2","nextNode":"3"}' title="开始审批">开始审批</div>
+<div id="item3" class="item" data-item='{"nodeId":"3","nextNode":"4"}' title="部门审批">部门审批</div>
+<div id="item4" class="item" data-item='{"nodeId":"4","nextNode":"5"}' title="单位审批">单位审批</div>
+<div id="item5" class="item" data-item='{"nodeId":"5","nextNode":""}' title="领导批示">领导批示</div>
+<script type="text/javascript">
+  $(function () {
+    //用来存储节点的顺序
+    var connections = [];
+    //拖动节点开始时的事件
+    var dragger = function () {
+      this.ox = this.attr("x");
+      this.oy = this.attr("y");
+      this.animate({ "fill-opacity": 0.2 }, 500);
+    };
+    //拖动事件
+    var move = function (dx, dy) {
+      var att = { x: this.ox + dx, y: this.oy + dy };
+      this.attr(att);
+      $("#item" + this.id).offset({ top: this.oy + dy + 10, left: this.ox + dx + 10 });
+      for (var i = connections.length; i--;) { r.drawArr(connections[i]); }
+    };
+    //拖动结束后的事件
+    var up = function () { this.animate({ "fill-opacity": 0 }, 500); };
+    //创建绘图对象
+    var r = Raphael("holder", $(window).width(), $(window).height());
+    //定义元素坐标高宽
+    var $nodeList = $(".item"); //节点集合jquery对象
+    var _x, _y, _w, _h, shapeLen;
+    shapeLen = $nodeList.length; //节点数量
+    _x = 190; _y = 100; _h = 60; _w = 40;
+    var shapes = new Object(); //节点集合
+    $nodeList.each(function (index, item) {
+      _w = $(item).width(); //元素的宽
+      _h = $(item).height(); //元素的高
+      var r_y = (_h + 100) * index + 20;
+      //节点json数据
+      var data_item = $.parseJSON($(item).attr("data-item"));
+      shapes[data_item.nodeId] = r.rect(_x, r_y, _w, _h, 4);
+      $(item).offset({ top: r_y + 6, left: _x + 10 });
+      //为节点添加样式和事件，并且绘制节点之间的箭头
+      var color = Raphael.getColor();
+      shapes[data_item.nodeId].attr({ fill: color, stroke: color, "fill-opacity": 0, "stroke-width": 2, cursor: "move" });
+      shapes[data_item.nodeId].id = index + 1;
+      shapes[data_item.nodeId].drag(move, dragger, up); //拖动节点事件
+      shapes[data_item.nodeId].dblclick(function () { alert(this.id) }); //绑定双击节点事件
+      shapes[data_item.nodeId].attr("title", item.title);
+      item.innerHTML = data_item.nodeId + item.innerHTML;
+    });
+    //存储节点间的顺序
+    $nodeList.each(function (i, item) {
+      //节点json数据
+      var data_item = $.parseJSON($(item).attr("data-item"));
+      if (data_item.nextNode) {
+        connections.push(r.drawArr({ obj1: shapes[data_item.nodeId], obj2: shapes[data_item.nextNode] }));
+      }
+    });
+  });
+  //随着节点位置的改变动态改变箭头
+  Raphael.fn.drawArr = function (obj) {
+    var point = getStartEnd(obj.obj1, obj.obj2);
+    var path1 = getArr(point.start.x, point.start.y, point.end.x, point.end.y, 8);
+    if (obj.arrPath) {
+      obj.arrPath.attr({ path: path1 });
+    } else {
+      obj.arrPath = this.path(path1);
+    }
+    return obj;
+  };
+
+  function getStartEnd(obj1, obj2) {
+    var bb1 = obj1.getBBox(),
+      bb2 = obj2.getBBox();
+    var p = [
+      { x: bb1.x + bb1.width / 2, y: bb1.y - 1 },
+      { x: bb1.x + bb1.width / 2, y: bb1.y + bb1.height + 1 },
+      { x: bb1.x - 1, y: bb1.y + bb1.height / 2 },
+      { x: bb1.x + bb1.width + 1, y: bb1.y + bb1.height / 2 },
+      { x: bb2.x + bb2.width / 2, y: bb2.y - 1 },
+      { x: bb2.x + bb2.width / 2, y: bb2.y + bb2.height + 1 },
+      { x: bb2.x - 1, y: bb2.y + bb2.height / 2 },
+      { x: bb2.x + bb2.width + 1, y: bb2.y + bb2.height / 2 }
+    ];
+    var d = {}, dis = [];
+    for (var i = 0; i < 4; i++) {
+      for (var j = 4; j < 8; j++) {
+        var dx = Math.abs(p[i].x - p[j].x),
+          dy = Math.abs(p[i].y - p[j].y);
+        if (
+          (i == j - 4) ||
+          (((i != 3 && j != 6) || p[i].x < p[j].x) &&
+            ((i != 2 && j != 7) || p[i].x > p[j].x) &&
+            ((i != 0 && j != 5) || p[i].y > p[j].y) &&
+            ((i != 1 && j != 4) || p[i].y < p[j].y))
+        ) {
+          dis.push(dx + dy);
+          d[dis[dis.length - 1]] = [i, j];
+        }
+      }
+    }
+    if (dis.length == 0) {
+      var res = [0, 4];
+    } else {
+      res = d[Math.min.apply(Math, dis)];
+    }
+    var result = {};
+    result.start = {};
+    result.end = {};
+    result.start.x = p[res[0]].x;
+    result.start.y = p[res[0]].y;
+    result.end.x = p[res[1]].x;
+    result.end.y = p[res[1]].y;
+    return result;
+  }
+
+
+  //获取组成箭头的三条线段的路径
+  function getArr(x1, y1, x2, y2, size) {
+    var angle = Raphael.angle(x1, y1, x2, y2); //得到两点之间的角度
+    var a45 = Raphael.rad(angle - 45); //角度转换成弧度
+    var a45m = Raphael.rad(angle + 45);
+    var x2a = x2 + Math.cos(a45) * size;
+    var y2a = y2 + Math.sin(a45) * size;
+    var x2b = x2 + Math.cos(a45m) * size;
+    var y2b = y2 + Math.sin(a45m) * size;
+    var result = ["M", x1, y1, "L", x2, y2, "L", x2a, y2a, "M", x2, y2, "L", x2b, y2b];
+    return result;
+  }
+</script>
+</body>
+</html>

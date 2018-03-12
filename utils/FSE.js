@@ -4,7 +4,7 @@
  * 知识点数据
  */
 
-export default [
+module.exports = [
   {
     name: 'F2E',
     title: 'F2E',
@@ -48,9 +48,7 @@ export default [
                   site: '',
                   github: ''
                 },
-                children: [
-
-                ]
+                children: []
               },
               {
                 name: 'HTML5',
@@ -62,9 +60,7 @@ export default [
                   site: '',
                   github: ''
                 },
-                children: [
-
-                ]
+                children: []
               }
             ]
           },
@@ -78,9 +74,7 @@ export default [
               site: '',
               github: ''
             },
-            children: [
-
-            ]
+            children: []
           },
           {
             name: 'TypeScript',
@@ -89,12 +83,22 @@ export default [
             type: 'catalog',
             category: 'language',
             url: {
-              site: '',
+              site: 'http://www.typescriptlang.org/',
               github: ''
             },
-            children: [
-
-            ]
+            children: []
+          },
+          {
+            name: 'CoffeeScript',
+            title: 'CoffeeScript',
+            description: '',
+            type: 'catalog',
+            category: 'language',
+            url: {
+              site: 'http://coffeescript.org/',
+              github: ''
+            },
+            children: []
           },
           {
             name: 'CSS',
@@ -106,163 +110,277 @@ export default [
               site: '',
               github: ''
             },
-            children: [
-
-            ]
+            children: []
           }
         ]
       },
       {
-        name: 'debug',
-        title: '调试工具',
+        name: 'browser',
+        title: '浏览器',
         description: '',
         type: 'catalog',
-        category: 'debug',
+        category: 'debug-browser',
         url: {
           site: '',
           github: ''
         },
         children: [
           {
-            name: 'browser',
-            title: '浏览器',
+            name: 'IE',
+            title: 'IE浏览器',
             description: '',
             type: 'catalog',
             category: 'debug-browser',
             url: {
-              site: '',
+              site: 'https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads',
               github: ''
             },
-            children: [
-              {
-                name: 'IE',
-                title: 'IE浏览器',
-                description: '',
-                type: 'catalog',
-                category: 'debug-browser',
-                url: {
-                  site: 'https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads',
-                  github: ''
-                },
-                children: [
-
-                ]
-              },
-              {
-                name: 'Chrome',
-                title: 'Chrome浏览器',
-                description: '',
-                type: 'catalog',
-                category: 'debug-browser',
-                url: {
-                  site: 'https://www.google.cn/chrome/',
-                  github: ''
-                },
-                children: [
-
-                ]
-              },
-              {
-                name: 'Firefox',
-                title: 'Firefox浏览器',
-                description: '',
-                type: 'catalog',
-                category: 'debug-browser',
-                url: {
-                  site: 'http://www.firefox.com.cn/',
-                  github: ''
-                },
-                children: [
-
-                ]
-              }
-            ]
+            children: []
           },
           {
-            name: 'debug-tool',
-            title: '调试工具',
+            name: 'Chrome',
+            title: 'Chrome浏览器',
+            description: '',
+            type: 'catalog',
+            category: 'debug-browser',
+            url: {
+              site: 'https://www.google.cn/chrome/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Firefox',
+            title: 'Firefox浏览器',
+            description: '',
+            type: 'catalog',
+            category: 'debug-browser',
+            url: {
+              site: 'http://www.firefox.com.cn/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Safari',
+            title: 'Safari浏览器',
+            description: '',
+            type: 'catalog',
+            category: 'debug-browser',
+            url: {
+              site: 'https://www.apple.com/cn/safari/',
+              github: ''
+            },
+            children: []
+          }
+        ]
+      },
+      {
+        name: 'debug-tool',
+        title: '调试工具',
+        description: '',
+        type: 'catalog',
+        category: 'debug-tool',
+        children: [
+          {
+            name: 'Fiddler',
+            title: 'Fiddler',
             description: '',
             type: 'catalog',
             category: 'debug-tool',
-            children: [
-              {
-                name: 'Fiddler',
-                title: 'Fiddler',
-                description: '',
-                type: 'catalog',
-                category: 'debug-tool',
-                url: {
-                  site: 'https://www.telerik.com/fiddler',
-                  github: ''
-                },
-                children: [
-
-                ]
-              },
-              {
-                name: 'YSlow',
-                title: 'YSlow',
-                description: '',
-                type: 'catalog',
-                category: 'debug-tool',
-                url: {
-                  site: '',
-                  github: ''
-                },
-                children: [
-
-                ]
-              },
-              {
-                name: 'whistle',
-                title: 'whistle',
-                description: '',
-                type: 'catalog',
-                category: 'debug-tool',
-                url: {
-                  site: '',
-                  github: 'https://github.com/avwo/whistle'
-                },
-                children: [
-
-                ]
-              },
-              {
-                name: 'wireshark',
-                title: 'wireshark',
-                description: '',
-                type: 'catalog',
-                category: 'debug-tool',
-                url: {
-                  site: 'https://www.wireshark.org/',
-                  github: ''
-                },
-                children: [
-
-                ]
-              },
-              {
-                name: 'weinre',
-                title: 'weinre',
-                description: '',
-                type: 'catalog',
-                category: 'debug-tool',
-                url: {
-                  site: 'http://people.apache.org/~pmuellr/weinre/',
-                  github: 'https://www.npmjs.com/package/weinre'
-                },
-                children: [
-
-                ]
-              }
-            ]
+            url: {
+              site: 'https://www.telerik.com/fiddler',
+              github: ''
+            },
+            children: []
           },
           {
-            name: 'IDE',
-            title: '编辑器',
+            name: 'YSlow',
+            title: 'YSlow',
             description: '',
             type: 'catalog',
+            category: 'debug-tool',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'whistle',
+            title: 'whistle',
+            description: '',
+            type: 'catalog',
+            category: 'debug-tool',
+            url: {
+              site: '',
+              github: 'https://github.com/avwo/whistle'
+            },
+            children: []
+          },
+          {
+            name: 'wireshark',
+            title: 'wireshark',
+            description: '',
+            type: 'catalog',
+            category: 'debug-tool',
+            url: {
+              site: 'https://www.wireshark.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'weinre',
+            title: 'weinre',
+            description: '',
+            type: 'catalog',
+            category: 'debug-tool',
+            url: {
+              site: 'http://people.apache.org/~pmuellr/weinre/',
+              github: 'https://www.npmjs.com/package/weinre'
+            },
+            children: []
+          }
+        ]
+      },
+      {
+        name: 'IDE',
+        title: '编辑器',
+        description: '',
+        type: 'catalog',
+        category: 'develop-tool',
+        children: [
+          {
+            name: 'VIM',
+            title: 'VIM',
+            description: '',
+            type: 'node',
             category: 'develop-tool',
+            url: {
+              site: 'https://www.vim.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Webstorm',
+            title: 'Webstorm',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'http://www.jetbrains.com/webstorm/?fromMenu',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Sublime',
+            title: 'Sublime',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'https://www.sublimetext.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Notepad++',
+            title: 'Notepad++',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'https://notepad-plus-plus.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'EditPlus',
+            title: 'EditPlus',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'https://www.editplus.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'ATOM',
+            title: 'ATOM',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'https://atom.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Brackets',
+            title: 'Brackets',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'http://brackets.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'HBuilder',
+            title: 'HBuilder',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'http://www.dcloud.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Ace',
+            title: 'Ace',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'https://ace.c9.io/',
+              github: 'https://github.com/ajaxorg/ace'
+            },
+            children: []
+          },
+          {
+            name: 'Visual Studio',
+            title: 'Visual Studio',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'https://www.visualstudio.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Eclipse',
+            title: 'Eclipse',
+            description: '',
+            type: 'node',
+            category: 'develop-tool',
+            url: {
+              site: 'http://www.eclipse.org/',
+              github: ''
+            },
             children: []
           }
         ]

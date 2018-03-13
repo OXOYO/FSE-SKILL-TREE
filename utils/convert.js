@@ -5,17 +5,15 @@
  */
 
 const fs = require('fs')
+const nodeEcharts = require('node-echarts')
 const config = require('./config')
-const raphael = require('raphael')
-const cheerio = require('cheerio')
-const jsdom = require('jsdom')
 
 // 数据源
 const dataSource = require(config.dataSource)
 // 当前时间
 const timeNow = (new Date()).getTime()
 // 日期格式化
-const formatDate = (time, fmt = 'yyyy-MM-dd hh:mm') => {
+const formatDate = function (time, fmt = 'yyyy-MM-dd hh:mm') {
   // 10位时间戳格式化
   let timeStr = time + ''
   if (timeStr.length < 13) {
@@ -156,59 +154,84 @@ const convert2MD = function () {
     lineBreak,
     ...fileContentArr
   ]
+  // 写文件
+  let writeFile = function (fileName, content, filePath) {
+    filePath = filePath ? filePath : '../'
+    // 写入文件
+    fs.writeFile(filePath + fileName, content, function (err) {
+      if (err) {
+        return console.error(err)
+      } else {
+        let msg = []
+        msg.push(formatMsg(fileName) + ' created success!')
+
+        let stat = fs.statSync(filePath + fileName)
+        if (stat.isFile()) {
+          // 文件大小:
+          msg.push('size: ' + stat.size)
+        }
+        console.log(msg.join(' '))
+      }
+    })
+  }
   // 生成README.md
   writeFile(config.mdFileName, fileContentArr.join(''), config.mdFilePath)
-}
-
-// 写文件
-const writeFile = function (fileName, content, filePath) {
-  filePath = filePath ? filePath : '../'
-  // 写入文件
-  fs.writeFile(filePath + fileName, content, function (err) {
-    if (err) {
-      return console.error(err)
-    } else {
-      let msg = []
-      msg.push(formatMsg(fileName) + ' created success!')
-
-      let stat = fs.statSync(filePath + fileName)
-      if (stat.isFile()) {
-        // 文件大小:
-        msg.push('size: ' + stat.size)
-      }
-      console.log(msg.join(' '))
-    }
-  })
 }
 
 const convert2Img = function () {
   if (!dataSource.length) {
     console.warn('The data source cannot be empty!')
   }
-  let maxWidth = 1200
-  let maxHeight = 2000
-  let document = jsdom.jsdom()
-  let svg = d3.select(document.body).append('svg')
-    .attr('xmlns', 'http://www.w3.org/2000/svg')
-    .attr('width', maxWidth)
-    .attr('height', maxHeight)
-  // 创建画布
-  let paper = raphael(0, 0, maxWidth, maxHeight)
-
-  const svg2png = require("svg2png");
-  svg2png(paper, {
-    width: maxWidth,
-    height: maxHeight
-  }).then((buffer) => {
-    fs.writeFile('test.png', buffer)
+  nodeEcharts({
+    width: 1200,
+    height: 2000,
+    option: {
+      tooltip: {
+        trigger: 'item',
+        triggerOn: 'mousemove'
+      },
+      series: [
+        {
+          type: 'tree',
+          data: dataSource,
+          top: '1%',
+          left: '7%',
+          bottom: '1%',
+          right: '20%',
+          symbolSize: 7,
+          label: {
+            normal: {
+              position: 'left',
+              verticalAlign: 'middle',
+              align: 'right',
+              fontSize: 20
+            }
+          },
+          leaves: {
+            label: {
+              normal: {
+                position: 'right',
+                verticalAlign: 'middle',
+                align: 'left'
+              }
+            }
+          },
+          expandAndCollapse: true,
+          animationDuration: 550,
+          animationDurationUpdate: 750
+        }
+      ]
+    },
+    path:  __dirname + '/' + config.imgFileName,
   })
-  .catch(e => console.error(e))
 }
 
 // 执行转换
-(function () {
-  // 转为markdown文件
-  convert2MD()
-  // 转为脑图图片
-  convert2Img()
-})()
+// 转为脑图图片
+convert2Img()
+// 转为markdown文件
+convert2MD()
+// 退出命令行
+setTimeout(function () {
+  process.exit()
+}, 1000)

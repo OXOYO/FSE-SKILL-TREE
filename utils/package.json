@@ -19,9 +19,6 @@
   },
   "homepage": "https://github.com/OXOYO/FSE-SKILL-TREE#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "jsdom": "^11.6.2",
-    "raphael": "^2.2.7",
-    "svg2png": "^4.1.1"
+    "node-echarts": "^1.1.2"
   }
 }

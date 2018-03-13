@@ -11,6 +11,8 @@ module.exports = {
   mdFilePath: '../',
   // 生成文件名
   mdFileName: 'README.md',
+  // 生成的图片名称
+  imgFileName: 'FSE.png',
   // 语言包
   lang: {}
 }

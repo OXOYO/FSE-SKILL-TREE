@@ -3,10 +3,12 @@
 
 点击链接加入群【Web全栈大神群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
 
+![FSE](./utils/FSE.png)
 
-更新时间：2018-03-12 17:54
 
-# F2E  
+更新时间：2018-03-13 14:04
+
+# F2E
 
 
 
@@ -14,7 +16,7 @@
 
 
 
-## 语言  
+## 语言
 
 
 
@@ -22,169 +24,169 @@
 
 
 
-### HTML  
+### HTML
 
 
 
 
 
-#### HTML4  
+#### HTML4
 
 
 
 
 
-#### HTML5  
+#### HTML5
 
 
 
 
 
-### JavaScript  
+### JavaScript
 
 
 
 
 
-### TypeScript  
+### TypeScript
 
-[site](http://www.typescriptlang.org/)  
+[site](http://www.typescriptlang.org/)
 
 
 
-### CoffeeScript  
+### CoffeeScript
 
-[site](http://coffeescript.org/)  
+[site](http://coffeescript.org/)
 
 
 
-### CSS  
+### CSS
 
 
 
 
 
-LESS  
+LESS
 
 
 
-SASS  
+SASS
 
 
 
-Stylus  
+Stylus
 
 
 
-## 浏览器  
+## 浏览器
 
 
 
 
 
-### IE浏览器  
+### IE浏览器
 
-[site](https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads)  
+[site](https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads)
 
 
 
-### Chrome浏览器  
+### Chrome浏览器
 
-[site](https://www.google.cn/chrome/)  
+[site](https://www.google.cn/chrome/)
 
 
 
-### Firefox浏览器  
+### Firefox浏览器
 
-[site](http://www.firefox.com.cn/)  
+[site](http://www.firefox.com.cn/)
 
 
 
-### Safari浏览器  
+### Safari浏览器
 
-[site](https://www.apple.com/cn/safari/)  
+[site](https://www.apple.com/cn/safari/)
 
 
 
-## 调试工具  
+## 调试工具
 
 
 
-### Fiddler  
+### Fiddler
 
-[site](https://www.telerik.com/fiddler)  
+[site](https://www.telerik.com/fiddler)
 
 
 
-### YSlow  
+### YSlow
 
 
 
 
 
-### whistle  
+### whistle
 
-[github](https://github.com/avwo/whistle)  
+[github](https://github.com/avwo/whistle)
 
 
 
-### wireshark  
+### wireshark
 
-[site](https://www.wireshark.org/)  
+[site](https://www.wireshark.org/)
 
 
 
-### weinre  
+### weinre
 
-[site](http://people.apache.org/~pmuellr/weinre/)  [github](https://www.npmjs.com/package/weinre)  
+[site](http://people.apache.org/~pmuellr/weinre/)  [github](https://www.npmjs.com/package/weinre)
 
 
 
-## 编辑器  
+## 编辑器
 
 
 
-VIM  [site](https://www.vim.org/)  
+VIM  [site](https://www.vim.org/)
 
 
 
-Webstorm  [site](http://www.jetbrains.com/webstorm/?fromMenu)  
+Webstorm  [site](http://www.jetbrains.com/webstorm/?fromMenu)
 
 
 
-Sublime  [site](https://www.sublimetext.com/)  
+Sublime  [site](https://www.sublimetext.com/)
 
 
 
-Notepad++  [site](https://notepad-plus-plus.org/)  
+Notepad++  [site](https://notepad-plus-plus.org/)
 
 
 
-EditPlus  [site](https://www.editplus.com/)  
+EditPlus  [site](https://www.editplus.com/)
 
 
 
-ATOM  [site](https://atom.io/)  
+ATOM  [site](https://atom.io/)
 
 
 
-Brackets  [site](http://brackets.io/)  
+Brackets  [site](http://brackets.io/)
 
 
 
-HBuilder  [site](http://www.dcloud.io/)  
+HBuilder  [site](http://www.dcloud.io/)
 
 
 
-Ace  [site](https://ace.c9.io/)  [github](https://github.com/ajaxorg/ace)  
+Ace  [site](https://ace.c9.io/)  [github](https://github.com/ajaxorg/ace)
 
 
 
-Visual Studio  [site](https://www.visualstudio.com/)  
+Visual Studio  [site](https://www.visualstudio.com/)
 
 
 
-Eclipse  [site](http://www.eclipse.org/)  
+Eclipse  [site](http://www.eclipse.org/)
 
 
 

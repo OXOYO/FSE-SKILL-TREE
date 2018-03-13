@@ -5,5 +5,6 @@
 ## Use
 ```bash
   cd utils
+  npm i
   npm run start
 ```

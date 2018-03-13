@@ -5,7 +5,7 @@
 
 
 
-更新时间：2018-03-13 14:09
+更新时间：2018-03-13 21:16
 
 ![FSE](./utils/FSE.png)
 
@@ -121,7 +121,7 @@ Stylus
 
 ### YSlow  
 
-
+[site](http://yslow.org/)  
 
 
 
@@ -188,6 +188,102 @@ Visual Studio  [site](https://www.visualstudio.com/)
 
 
 Eclipse  [site](http://www.eclipse.org/)  
+
+
+
+## 前端书籍  
+
+
+
+《JavaScript高级程序设计》  
+
+
+
+《编写可维护的JavaScript》  
+
+
+
+《jQuery 权威指南》  
+
+
+
+《Javascript语言精粹》  
+
+
+
+《锋利的jQuery》  
+
+
+
+《JavaScript DOM 编程艺术》  
+
+
+
+《学习 JavaScript 数据结构与算法》  
+
+
+
+《ES6标准入门》  
+
+
+
+《JavaScript忍者秘籍》  
+
+
+
+《高性能 JavaScript》  
+
+
+
+《HTTP权威指南》  
+
+
+
+《编写可维护的JavaScript》  
+
+
+
+《HTML5高级程序设计》  
+
+
+
+《基于MVC的JavaScript Web富应用开发》  
+
+
+
+《你不知道的 JavaScript》  
+
+
+
+《JavaScript 设计模式》  
+
+
+
+《webkit技术内幕》  
+
+
+
+《web性能权威指南》  
+
+
+
+《JavaScript框架设计》  
+
+
+
+《JavaScript函数式编程》  
+
+
+
+《Node.js+MongoDB+AngularJS Web开发》  
+
+
+
+《JavaScript快速全栈开发》  
+
+
+
+《数据结构与算法JavaScript描述》  
 
 
 

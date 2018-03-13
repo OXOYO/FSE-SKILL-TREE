@@ -238,7 +238,7 @@ module.exports = [
             type: 'catalog',
             category: 'debug-tool',
             url: {
-              site: '',
+              site: 'http://yslow.org/',
               github: ''
             },
             children: []
@@ -416,6 +416,291 @@ module.exports = [
             category: 'develop-tool',
             url: {
               site: 'http://www.eclipse.org/',
+              github: ''
+            },
+            children: []
+          }
+        ]
+      },
+      {
+        name: 'Book',
+        title: '前端书籍',
+        description: '',
+        type: 'catalog',
+        category: 'book',
+        children: [
+          {
+            name: '《JavaScript高级程序设计》',
+            title: '《JavaScript高级程序设计》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《编写可维护的JavaScript》',
+            title: '《编写可维护的JavaScript》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《jQuery 权威指南》',
+            title: '《jQuery 权威指南》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《Javascript语言精粹》',
+            title: '《Javascript语言精粹》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《锋利的jQuery》',
+            title: '《锋利的jQuery》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《JavaScript DOM 编程艺术》',
+            title: '《JavaScript DOM 编程艺术》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《学习 JavaScript 数据结构与算法》',
+            title: '《学习 JavaScript 数据结构与算法》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《ES6标准入门》',
+            title: '《ES6标准入门》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《JavaScript忍者秘籍》',
+            title: '《JavaScript忍者秘籍》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《高性能 JavaScript》',
+            title: '《高性能 JavaScript》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《HTTP权威指南》',
+            title: '《HTTP权威指南》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《编写可维护的JavaScript》',
+            title: '《编写可维护的JavaScript》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《HTML5高级程序设计》',
+            title: '《HTML5高级程序设计》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《基于MVC的JavaScript Web富应用开发》',
+            title: '《基于MVC的JavaScript Web富应用开发》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《你不知道的 JavaScript》',
+            title: '《你不知道的 JavaScript》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《JavaScript 设计模式》',
+            title: '《JavaScript 设计模式》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《webkit技术内幕》',
+            title: '《webkit技术内幕》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《web性能权威指南》',
+            title: '《web性能权威指南》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《JavaScript框架设计》',
+            title: '《JavaScript框架设计》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《JavaScript函数式编程》',
+            title: '《JavaScript函数式编程》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《Node.js+MongoDB+AngularJS Web开发》',
+            title: '《Node.js+MongoDB+AngularJS Web开发》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《JavaScript快速全栈开发》',
+            title: '《JavaScript快速全栈开发》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: '《数据结构与算法JavaScript描述》',
+            title: '《数据结构与算法JavaScript描述》',
+            description: '',
+            type: 'node',
+            category: 'book',
+            url: {
+              site: '',
               github: ''
             },
             children: []

@@ -186,7 +186,7 @@ const convert2Img = function () {
     console.warn('The data source cannot be empty!')
   }
   nodeEcharts({
-    width: 1200,
+    width: 2200,
     height: 2000,
     option: {
       tooltip: {

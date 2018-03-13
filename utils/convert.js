@@ -147,10 +147,13 @@ const convert2MD = function () {
   let headerMD = fs.readFileSync(config.headerMD)
   // 更新时间
   let updateInfo = '更新时间：' + formatDate(timeNow)
+  let previewImg = '![FSE](./utils/FSE.png)'
   fileContentArr = [
     headerMD,
     lineBreak,
     updateInfo,
+    lineBreak,
+    previewImg,
     lineBreak,
     ...fileContentArr
   ]

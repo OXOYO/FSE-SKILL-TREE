@@ -6,8 +6,8 @@
 
 module.exports = [
   {
-    name: 'F2E',
-    title: 'F2E',
+    name: 'FE',
+    title: '前端',
     description: '前端知识点',
     type: 'catalog',
     category: '',
@@ -152,7 +152,7 @@ module.exports = [
         ]
       },
       {
-        name: 'browser',
+        name: 'Browser',
         title: '浏览器',
         description: '',
         type: 'catalog',
@@ -213,7 +213,7 @@ module.exports = [
         ]
       },
       {
-        name: 'debug-tool',
+        name: 'Debug tool',
         title: '调试工具',
         description: '',
         type: 'catalog',
@@ -702,6 +702,207 @@ module.exports = [
             url: {
               site: '',
               github: ''
+            },
+            children: []
+          }
+        ]
+      },
+      // Front-end engineering
+      {
+        name: 'Front-end engineering',
+        title: '前端工程化',
+        description: '前端工程化',
+        type: 'catalog',
+        category: 'front-end-engineering',
+        url: {
+          site: '',
+          github: ''
+        },
+        children: [
+          {
+            name: 'Yeoman',
+            title: 'Yeoman',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'http://yeoman.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Bower',
+            title: 'Bower',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://bower.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Grunt',
+            title: 'Grunt',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://gruntjs.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Gulp',
+            title: 'Gulp',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://gulpjs.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Webpack',
+            title: 'Webpack',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://webpack.js.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Browsersync',
+            title: 'Browsersync',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://browsersync.io/',
+              github: '',
+              resources: [
+                {
+                  title: 'Browsersync中文网',
+                  description: '',
+                  url: 'http://www.browsersync.cn/'
+                }
+              ]
+            },
+            children: []
+          },
+          {
+            name: 'npm',
+            title: 'npm',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://www.npmjs.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'yarn',
+            title: 'yarn',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://yarnpkg.com/en/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Travis Ci',
+            title: 'Travis Ci',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://www.travis-ci.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Codecov',
+            title: 'Codecov',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://codecov.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Mocha',
+            title: 'Mocha',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://mochajs.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Chai',
+            title: 'Chai',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'http://www.chaijs.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'FIS',
+            title: 'FIS',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'http://fis.baidu.com/',
+              github: 'https://github.com/fex-team/fis3'
+            },
+            children: []
+          },
+          {
+            name: 'Rollup',
+            title: 'Rollup',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://rollupjs.org',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Parcel',
+            title: 'Parcel',
+            description: '',
+            type: 'node',
+            category: 'front-end-engineering',
+            url: {
+              site: 'https://parceljs.org/',
+              github: 'https://github.com/parcel-bundler/parcel'
             },
             children: []
           }

@@ -5,11 +5,11 @@
 
 
 
-更新时间：2018-03-14 18:02
+更新时间：2018-03-14 22:12
 
 ![FSE](./utils/FSE.png)
 
-# F2E  
+# 前端  
 
 
 
@@ -284,6 +284,74 @@ Eclipse  [site](http://www.eclipse.org/)
 
 
 《数据结构与算法JavaScript描述》  
+
+
+
+## 前端工程化  
+
+
+
+  前端工程化
+
+
+
+Yeoman  [site](http://yeoman.io/)  
+
+
+
+Bower  [site](https://bower.io/)  
+
+
+
+Grunt  [site](https://gruntjs.com/)  
+
+
+
+Gulp  [site](https://gulpjs.com/)  
+
+
+
+Webpack  [site](https://webpack.js.org/)  
+
+
+
+Browsersync  [site](https://browsersync.io/)  [resources]([object Object])  
+
+
+
+npm  [site](https://www.npmjs.com/)  
+
+
+
+yarn  [site](https://yarnpkg.com/en/)  
+
+
+
+Travis Ci  [site](https://www.travis-ci.org/)  
+
+
+
+Codecov  [site](https://codecov.io/)  
+
+
+
+Mocha  [site](https://mochajs.org/)  
+
+
+
+Chai  [site](http://www.chaijs.com/)  
+
+
+
+FIS  [site](http://fis.baidu.com/)  [github](https://github.com/fex-team/fis3)  
+
+
+
+Rollup  [site](https://rollupjs.org)  
+
+
+
+Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundler/parcel)  
 
 
 

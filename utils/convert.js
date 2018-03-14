@@ -186,7 +186,7 @@ const convert2Img = function () {
     console.warn('The data source cannot be empty!')
   }
   nodeEcharts({
-    width: 2200,
+    width: 1200,
     height: 2000,
     option: {
       tooltip: {
@@ -201,7 +201,7 @@ const convert2Img = function () {
           left: '7%',
           bottom: '1%',
           right: '20%',
-          symbolSize: 7,
+          symbolSize: 10,
           label: {
             normal: {
               position: 'left',
@@ -221,9 +221,11 @@ const convert2Img = function () {
           },
           expandAndCollapse: true,
           animationDuration: 550,
-          animationDurationUpdate: 750
+          animationDurationUpdate: 750,
+          initialTreeDepth: -1
         }
-      ]
+      ],
+      backgroundColor: '#F5F3EB'
     },
     path:  __dirname + '/' + config.imgFileName,
   })

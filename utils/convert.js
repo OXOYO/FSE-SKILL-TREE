@@ -12,6 +12,8 @@ const config = require('./config')
 const dataSource = require(config.dataSource)
 // 当前时间
 const timeNow = (new Date()).getTime()
+// 换行符
+const lineBreak = '\n\n'
 // 日期格式化
 const formatDate = function (time, fmt = 'yyyy-MM-dd hh:mm') {
   // 10位时间戳格式化
@@ -71,7 +73,6 @@ const convert2MD = function () {
   }
   let fileContentArr = []
   let count = 1
-  let lineBreak = '\n\n'
   let getSize = function (count) {
     let arr = new Array(count > 6 ? 6 : count).fill('#')
     return arr.join('') + ' '
@@ -189,9 +190,25 @@ const convert2Img = function () {
     width: 1200,
     height: 2000,
     option: {
-      tooltip: {
-        trigger: 'item',
-        triggerOn: 'mousemove'
+      title: {
+        show: true,
+        text: [
+          config.projectInfo.name,
+          config.projectInfo.title
+        ].join(' '),
+        subtext: [
+          'author：',
+          config.authorInfo.name,
+          lineBreak,
+          'github：',
+          config.authorInfo.github,
+          lineBreak,
+          'QQ群：',
+          config.authorInfo.qqGroup,
+          lineBreak,
+          '更新时间：',
+          formatDate(timeNow)
+        ].join('')
       },
       series: [
         {

@@ -907,6 +907,307 @@ module.exports = [
             children: []
           }
         ]
+      },
+      {
+        name: 'FrameWork',
+        title: '框架',
+        description: '前端框架',
+        type: 'catalog',
+        category: 'front-end-framework',
+        url: {
+          site: '',
+          github: ''
+        },
+        children: [
+          {
+            name: 'Angular',
+            title: 'Angular',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://angularjs.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Vue',
+            title: 'Vue',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://vuejs.org/',
+              github: 'https://github.com/vuejs/vue'
+            },
+            children: []
+          },
+          {
+            name: 'React',
+            title: 'React',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://reactjs.org/',
+              github: 'https://github.com/facebook/react'
+            },
+            children: []
+          },
+          {
+            name: 'Bootstrap',
+            title: 'Bootstrap',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://getbootstrap.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Purecss',
+            title: 'Purecss',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://purecss.io/',
+              github: 'https://github.com/pure-css/pure'
+            },
+            children: []
+          },
+          {
+            name: 'UIkit',
+            title: 'UIkit',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://getuikit.com/',
+              github: 'https://github.com/uikit/uikit'
+            },
+            children: []
+          },
+          {
+            name: 'Amazeui',
+            title: 'Amazeui',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://amazeui.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Frozen UI',
+            title: 'Frozen UI',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://frozenui.github.io/',
+              github: 'https://github.com/frozenui/frozenui'
+            },
+            children: []
+          },
+          {
+            name: 'Semantic UI',
+            title: 'Semantic UI',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://semantic-ui.com/',
+              github: 'https://github.com/semantic-org/semantic-ui/'
+            },
+            children: []
+          },
+          {
+            name: 'KISSY',
+            title: 'KISSY',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://docs.kissyui.com/',
+              github: 'https://github.com/kissyteam/kissy'
+            },
+            children: []
+          },
+          {
+            name: 'bui',
+            title: 'bui',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://www.builive.com/',
+              github: 'https://github.com/dxq613/bui'
+            },
+            children: []
+          },
+          {
+            name: 'Layui',
+            title: 'Layui',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://www.layui.com/',
+              github: 'https://github.com/sentsin/layui/'
+            },
+            children: []
+          },
+          {
+            name: 'MUI',
+            title: 'MUI',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://dev.dcloud.net.cn/mui/',
+              github: 'https://github.com/dcloudio/mui/'
+            },
+            children: []
+          },
+          {
+            name: 'Avalon',
+            title: 'Avalon',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://avalonjs.coding.me/',
+              github: 'https://github.com/RubyLouvre/avalon'
+            },
+            children: []
+          },
+          {
+            name: 'WinJS',
+            title: 'WinJS',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://try.buildwinjs.com/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'SUI',
+            title: 'SUI',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://sui.taobao.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'ELECTRON',
+            title: 'ELECTRON',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://electronjs.org/',
+              github: 'https://github.com/electron'
+            },
+            children: []
+          },
+          {
+            name: 'Ruff',
+            title: 'Ruff',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://ruff.io/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'kendo-ui',
+            title: 'kendo-ui',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'https://www.telerik.com/kendo-ui',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'MontageJS',
+            title: 'MontageJS',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://montagestudio.com/montagejs',
+              github: 'https://github.com/montagejs/montage'
+            },
+            children: []
+          },
+          {
+            name: 'cordova',
+            title: 'cordova',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://cordova.apache.org/',
+              github: ''
+            },
+            children: []
+          },
+          {
+            name: 'Nuclear',
+            title: 'Nuclear',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: '',
+              github: 'https://github.com/AlloyTeam/Nuclear'
+            },
+            children: []
+          },
+          {
+            name: 'Omijs',
+            title: 'Omijs',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: '',
+              github: 'https://github.com/AlloyTeam/omi'
+            },
+            children: []
+          },
+          {
+            name: 'QingUi',
+            title: 'QingUi',
+            description: '',
+            type: 'catalog',
+            category: 'front-end-framework',
+            url: {
+              site: 'http://qingui.uis.cc/',
+              github: ''
+            },
+            children: []
+          }
+        ]
       }
     ]
   }

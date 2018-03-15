@@ -5,7 +5,7 @@ Web全栈工程师技能树梳理
 
 
 
-更新时间：2018-03-15 16:45
+更新时间：2018-03-15 17:34
 
 ![FSE](./utils/FSE.png)
 
@@ -352,6 +352,158 @@ Rollup  [site](https://rollupjs.org)
 
 
 Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundler/parcel)  
+
+
+
+## 框架  
+
+
+
+  前端框架
+
+
+
+### Angular  
+
+[site](https://angularjs.org/)  
+
+
+
+### Vue  
+
+[site](https://vuejs.org/)  [github](https://github.com/vuejs/vue)  
+
+
+
+### React  
+
+[site](https://reactjs.org/)  [github](https://github.com/facebook/react)  
+
+
+
+### Bootstrap  
+
+[site](https://getbootstrap.com/)  
+
+
+
+### Purecss  
+
+[site](https://purecss.io/)  [github](https://github.com/pure-css/pure)  
+
+
+
+### UIkit  
+
+[site](https://getuikit.com/)  [github](https://github.com/uikit/uikit)  
+
+
+
+### Amazeui  
+
+[site](http://amazeui.org/)  
+
+
+
+### Frozen UI  
+
+[site](http://frozenui.github.io/)  [github](https://github.com/frozenui/frozenui)  
+
+
+
+### Semantic UI  
+
+[site](https://semantic-ui.com/)  [github](https://github.com/semantic-org/semantic-ui/)  
+
+
+
+### KISSY  
+
+[site](http://docs.kissyui.com/)  [github](https://github.com/kissyteam/kissy)  
+
+
+
+### bui  
+
+[site](http://www.builive.com/)  [github](https://github.com/dxq613/bui)  
+
+
+
+### Layui  
+
+[site](http://www.layui.com/)  [github](https://github.com/sentsin/layui/)  
+
+
+
+### MUI  
+
+[site](http://dev.dcloud.net.cn/mui/)  [github](https://github.com/dcloudio/mui/)  
+
+
+
+### Avalon  
+
+[site](http://avalonjs.coding.me/)  [github](https://github.com/RubyLouvre/avalon)  
+
+
+
+### WinJS  
+
+[site](http://try.buildwinjs.com/)  
+
+
+
+### SUI  
+
+[site](http://sui.taobao.org/)  
+
+
+
+### ELECTRON  
+
+[site](https://electronjs.org/)  [github](https://github.com/electron)  
+
+
+
+### Ruff  
+
+[site](https://ruff.io/)  
+
+
+
+### kendo-ui  
+
+[site](https://www.telerik.com/kendo-ui)  
+
+
+
+### MontageJS  
+
+[site](http://montagestudio.com/montagejs)  [github](https://github.com/montagejs/montage)  
+
+
+
+### cordova  
+
+[site](http://cordova.apache.org/)  
+
+
+
+### Nuclear  
+
+[github](https://github.com/AlloyTeam/Nuclear)  
+
+
+
+### Omijs  
+
+[github](https://github.com/AlloyTeam/omi)  
+
+
+
+### QingUi  
+
+[site](http://qingui.uis.cc/)  
 
 
 

@@ -188,7 +188,7 @@ const convert2Img = function () {
   }
   nodeEcharts({
     width: 1200,
-    height: 2000,
+    height: 2500,
     option: {
       title: {
         show: true,

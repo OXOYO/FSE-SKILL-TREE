@@ -5,11 +5,19 @@ Web全栈工程师技能树梳理
 
 
 
-更新时间：2018-03-15 17:34
+更新时间：2018-03-15 21:43
 
 ![FSE](./utils/FSE.png)
 
-# 前端  
+# 全栈  
+
+
+
+  Web全栈工程师技能树梳理
+
+
+
+## 前端  
 
 
 
@@ -17,7 +25,7 @@ Web全栈工程师技能树梳理
 
 
 
-## 语言  
+### 语言  
 
 
 
@@ -25,43 +33,43 @@ Web全栈工程师技能树梳理
 
 
 
-### HTML  
+#### HTML  
 
 
 
 
 
-#### HTML4  
+##### HTML4  
 
 
 
 
 
-#### HTML5  
+##### HTML5  
 
 
 
 
 
-### JavaScript  
+#### JavaScript  
 
 
 
 
 
-### TypeScript  
+#### TypeScript  
 
 [site](http://www.typescriptlang.org/)  
 
 
 
-### CoffeeScript  
+#### CoffeeScript  
 
 [site](http://coffeescript.org/)  
 
 
 
-### CSS  
+#### CSS  
 
 
 
@@ -79,71 +87,71 @@ Stylus
 
 
 
-## 浏览器  
+### 浏览器  
 
 
 
 
 
-### IE浏览器  
+#### IE浏览器  
 
 [site](https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads)  
 
 
 
-### Chrome浏览器  
+#### Chrome浏览器  
 
 [site](https://www.google.cn/chrome/)  
 
 
 
-### Firefox浏览器  
+#### Firefox浏览器  
 
 [site](http://www.firefox.com.cn/)  
 
 
 
-### Safari浏览器  
+#### Safari浏览器  
 
 [site](https://www.apple.com/cn/safari/)  
 
 
 
-## 调试工具  
+### 调试工具  
 
 
 
-### Fiddler  
+#### Fiddler  
 
 [site](https://www.telerik.com/fiddler)  
 
 
 
-### YSlow  
+#### YSlow  
 
 [site](http://yslow.org/)  
 
 
 
-### whistle  
+#### whistle  
 
 [github](https://github.com/avwo/whistle)  
 
 
 
-### wireshark  
+#### wireshark  
 
 [site](https://www.wireshark.org/)  
 
 
 
-### weinre  
+#### weinre  
 
 [site](http://people.apache.org/~pmuellr/weinre/)  [github](https://www.npmjs.com/package/weinre)  
 
 
 
-## 编辑器  
+### 编辑器  
 
 
 
@@ -191,7 +199,7 @@ Eclipse  [site](http://www.eclipse.org/)
 
 
 
-## 前端书籍  
+### 前端书籍  
 
 
 
@@ -287,7 +295,7 @@ Eclipse  [site](http://www.eclipse.org/)
 
 
 
-## 前端工程化  
+### 前端工程化  
 
 
 
@@ -355,7 +363,7 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 
 
-## 框架  
+### 框架  
 
 
 
@@ -363,147 +371,253 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 
 
-### Angular  
+#### Angular  
 
 [site](https://angularjs.org/)  
 
 
 
-### Vue  
+#### Vue  
 
 [site](https://vuejs.org/)  [github](https://github.com/vuejs/vue)  
 
 
 
-### React  
+#### React  
 
 [site](https://reactjs.org/)  [github](https://github.com/facebook/react)  
 
 
 
-### Bootstrap  
+#### Bootstrap  
 
 [site](https://getbootstrap.com/)  
 
 
 
-### Purecss  
+#### Purecss  
 
 [site](https://purecss.io/)  [github](https://github.com/pure-css/pure)  
 
 
 
-### UIkit  
+#### UIkit  
 
 [site](https://getuikit.com/)  [github](https://github.com/uikit/uikit)  
 
 
 
-### Amazeui  
+#### Amazeui  
 
 [site](http://amazeui.org/)  
 
 
 
-### Frozen UI  
+#### Frozen UI  
 
 [site](http://frozenui.github.io/)  [github](https://github.com/frozenui/frozenui)  
 
 
 
-### Semantic UI  
+#### Semantic UI  
 
 [site](https://semantic-ui.com/)  [github](https://github.com/semantic-org/semantic-ui/)  
 
 
 
-### KISSY  
+#### KISSY  
 
 [site](http://docs.kissyui.com/)  [github](https://github.com/kissyteam/kissy)  
 
 
 
-### bui  
+#### bui  
 
 [site](http://www.builive.com/)  [github](https://github.com/dxq613/bui)  
 
 
 
-### Layui  
+#### Layui  
 
 [site](http://www.layui.com/)  [github](https://github.com/sentsin/layui/)  
 
 
 
-### MUI  
+#### MUI  
 
 [site](http://dev.dcloud.net.cn/mui/)  [github](https://github.com/dcloudio/mui/)  
 
 
 
-### Avalon  
+#### Avalon  
 
 [site](http://avalonjs.coding.me/)  [github](https://github.com/RubyLouvre/avalon)  
 
 
 
-### WinJS  
+#### WinJS  
 
 [site](http://try.buildwinjs.com/)  
 
 
 
-### SUI  
+#### SUI  
 
 [site](http://sui.taobao.org/)  
 
 
 
-### ELECTRON  
+#### ELECTRON  
 
 [site](https://electronjs.org/)  [github](https://github.com/electron)  
 
 
 
-### Ruff  
+#### Ruff  
 
 [site](https://ruff.io/)  
 
 
 
-### kendo-ui  
+#### kendo-ui  
 
 [site](https://www.telerik.com/kendo-ui)  
 
 
 
-### MontageJS  
+#### MontageJS  
 
 [site](http://montagestudio.com/montagejs)  [github](https://github.com/montagejs/montage)  
 
 
 
-### cordova  
+#### cordova  
 
 [site](http://cordova.apache.org/)  
 
 
 
-### Nuclear  
+#### Nuclear  
 
 [github](https://github.com/AlloyTeam/Nuclear)  
 
 
 
-### Omijs  
+#### Omijs  
 
 [github](https://github.com/AlloyTeam/omi)  
 
 
 
-### QingUi  
+#### QingUi  
 
 [site](http://qingui.uis.cc/)  
+
+
+
+## 后端  
+
+
+
+  后端知识点
+
+
+
+### 语言  
+
+
+
+  后端语言
+
+
+
+#### NodeJS  
+
+[site](https://nodejs.org/)  
+
+
+
+#### PHP  
+
+[site](http://php.net/)  
+
+
+
+#### Java  
+
+[site](http://java.com/)  
+
+
+
+#### Go  
+
+[site](https://golang.org/)  
+
+
+
+#### Python  
+
+[site](https://www.python.org/)  
+
+
+
+#### Swift  
+
+[site](https://www.apple.com/cn/swift/)  
+
+
+
+### Database  
+
+
+
+
+
+#### MySQL  
+
+
+
+
+
+#### SQL Server  
+
+
+
+
+
+#### MongoDB  
+
+
+
+
+
+#### Redis  
+
+
+
+
+
+#### Memcached  
+
+
+
+
+
+### Web Server  
+
+
+
+
+
+#### Apache  
+
+
+
+
+
+#### Nginx  
+
+
 
 
 

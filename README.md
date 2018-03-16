@@ -5,7 +5,7 @@ Web全栈工程师技能树梳理
 
 
 
-更新时间：2018-03-15 21:43
+更新时间：2018-03-16 17:56
 
 ![FSE](./utils/FSE.png)
 
@@ -124,6 +124,12 @@ Stylus
 #### Fiddler  
 
 [site](https://www.telerik.com/fiddler)  
+
+
+
+#### HttpWatch  
+
+[site](https://www.httpwatch.com/)  
 
 
 
@@ -512,6 +518,86 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 #### QingUi  
 
 [site](http://qingui.uis.cc/)  
+
+
+
+### 文档工具  
+
+
+
+  文档工具
+
+
+
+#### JSDoc  
+
+[site](http://usejsdoc.org/)  [github](https://github.com/jsdoc3/jsdoc)  
+
+  An API documentation generator for JavaScript.
+
+
+
+#### ESDoc  
+
+[site](https://esdoc.org/)  [github](https://github.com/esdoc/esdoc)  
+
+  ESDoc is a documentation generator for JavaScript.
+
+
+
+#### apiDoc  
+
+[site](http://apidocjs.com/)  [github](https://github.com/apidoc/apidoc)  
+
+  Generates a RESTful web API Documentation.
+
+
+
+#### GraphQL Voyager  
+
+[site](https://apis.guru/graphql-voyager/)  [github](https://github.com/APIs-guru/graphql-voyager)  
+
+  Represent any GraphQL API as an interactive graph. 
+
+
+
+### 其他知识点  
+
+
+
+  其他知识点
+
+
+
+#### YouMightNotNeedJS  
+
+[site](http://youmightnotneedjs.com/)  [github](https://github.com/una/YouMightNotNeedJS/)  
+
+  You might not need scripts at all.
+
+
+
+#### YouMightNotNeedjQuery  
+
+[site](http://youmightnotneedjquery.com/)  [github](https://github.com/HubSpot/youmightnotneedjquery)  
+
+  You might not need scripts at all.
+
+
+
+#### You-Dont-Need-Lodash-Underscore  
+
+[github](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore)  
+
+  List of JavaScript methods which you can use natively + ESLint Plugin
+
+
+
+#### Bouncy Ball  
+
+[site](http://sparkbox.github.io/bouncy-ball)  [github](https://github.com/sparkbox/bouncy-ball)  
+
+  Compare web animation techniques by bouncing a ball with each one.
 
 
 

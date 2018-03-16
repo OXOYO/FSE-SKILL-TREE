@@ -243,6 +243,18 @@ module.exports = [
                 children: []
               },
               {
+                name: 'HttpWatch',
+                title: 'HttpWatch',
+                description: '',
+                type: 'catalog',
+                category: 'debug-tool',
+                url: {
+                  site: 'https://www.httpwatch.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
                 name: 'YSlow',
                 title: 'YSlow',
                 description: '',
@@ -1215,6 +1227,128 @@ module.exports = [
                 url: {
                   site: 'http://qingui.uis.cc/',
                   github: ''
+                },
+                children: []
+              }
+            ]
+          },
+          {
+            name: 'Documentation tool',
+            title: '文档工具',
+            description: '文档工具',
+            type: 'catalog',
+            category: 'documentation-tool',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: [
+              {
+                name: 'JSDoc',
+                title: 'JSDoc',
+                description: 'An API documentation generator for JavaScript.',
+                type: 'catalog',
+                category: 'documentation-tool',
+                url: {
+                  site: 'http://usejsdoc.org/',
+                  github: 'https://github.com/jsdoc3/jsdoc'
+                },
+                children: []
+              },
+              {
+                name: 'ESDoc',
+                title: 'ESDoc',
+                description: 'ESDoc is a documentation generator for JavaScript.',
+                type: 'catalog',
+                category: 'documentation-tool',
+                url: {
+                  site: 'https://esdoc.org/',
+                  github: 'https://github.com/esdoc/esdoc'
+                },
+                children: []
+              },
+              {
+                name: 'apiDoc',
+                title: 'apiDoc',
+                description: 'Generates a RESTful web API Documentation.',
+                type: 'catalog',
+                category: 'documentation-tool',
+                url: {
+                  site: 'http://apidocjs.com/',
+                  github: 'https://github.com/apidoc/apidoc'
+                },
+                children: []
+              },
+              {
+                name: 'GraphQL Voyager',
+                title: 'GraphQL Voyager',
+                description: 'Represent any GraphQL API as an interactive graph. ',
+                type: 'catalog',
+                category: 'documentation-tool',
+                url: {
+                  site: 'https://apis.guru/graphql-voyager/',
+                  github: 'https://github.com/APIs-guru/graphql-voyager'
+                },
+                children: []
+              }
+            ]
+          },
+          {
+            name: 'Other',
+            title: '其他知识点',
+            description: '其他知识点',
+            type: 'catalog',
+            category: 'Other',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: [
+              {
+                name: 'YouMightNotNeedJS',
+                title: 'YouMightNotNeedJS',
+                description: 'You might not need scripts at all.',
+                type: 'catalog',
+                category: 'Other',
+                url: {
+                  site: 'http://youmightnotneedjs.com/',
+                  github: 'https://github.com/una/YouMightNotNeedJS/'
+                },
+                children: []
+              },
+              {
+                name: 'YouMightNotNeedjQuery',
+                title: 'YouMightNotNeedjQuery',
+                description: 'You might not need scripts at all.',
+                type: 'catalog',
+                category: 'Other',
+                url: {
+                  site: 'http://youmightnotneedjquery.com/',
+                  github: 'https://github.com/HubSpot/youmightnotneedjquery'
+                },
+                children: []
+              },
+              {
+                name: 'You-Dont-Need-Lodash-Underscore',
+                title: 'You-Dont-Need-Lodash-Underscore',
+                description: 'List of JavaScript methods which you can use natively + ESLint Plugin',
+                type: 'catalog',
+                category: 'Other',
+                url: {
+                  site: '',
+                  github: 'https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore'
+                },
+                children: []
+              },
+              {
+                name: 'Bouncy Ball',
+                title: 'Bouncy Ball',
+                description: 'Compare web animation techniques by bouncing a ball with each one.',
+                type: 'catalog',
+                category: 'Other',
+                url: {
+                  site: 'http://sparkbox.github.io/bouncy-ball',
+                  github: 'https://github.com/sparkbox/bouncy-ball'
                 },
                 children: []
               }

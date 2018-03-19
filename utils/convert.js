@@ -67,7 +67,7 @@ const formatMsg = function (target) {
   return res
 }
 // 转为markdonw文件
-const convert2MD = function () {
+const convert2MD = function (itemConfig) {
   if (!dataSource.length) {
     console.warn('The data source cannot be empty!')
   }
@@ -144,13 +144,23 @@ const convert2MD = function () {
   }
   // 处理数据源
   handler(dataSource, count)
-  // 读取头部
-  let headerMD = fs.readFileSync(config.headerMD)
+  // 拼装header
+  let handlerHeader = () => {
+    let tmpArr = []
+    Object.keys(config.projectInfo).map(key => {
+      if (key === 'name') {
+        tmpArr.push('# ' + config.projectInfo[key])
+      } else {
+        tmpArr.push(config.projectInfo[key])
+      }
+    })
+    return tmpArr.join(lineBreak)
+  }
   // 更新时间
   let updateInfo = '更新时间：' + formatDate(timeNow)
   let previewImg = '![FSE](./utils/FSE.png)'
   fileContentArr = [
-    headerMD,
+    handlerHeader(),
     lineBreak,
     updateInfo,
     lineBreak,
@@ -179,36 +189,36 @@ const convert2MD = function () {
     })
   }
   // 生成README.md
-  writeFile(config.mdFileName, fileContentArr.join(''), config.mdFilePath)
+  writeFile(itemConfig.output.fileName, fileContentArr.join(''), itemConfig.output.path)
 }
 
-const convert2Img = function () {
+const convert2Img = function (itemConfig) {
   if (!dataSource.length) {
     console.warn('The data source cannot be empty!')
+  }
+  // 处理subText
+  let handleSubText = function () {
+    let tmpArr =[]
+    Object.keys(itemConfig.output.info).map((key) => {
+      let val = itemConfig.output.info[key]
+      if(val) {
+        tmpArr.push([key, val].join('：'))
+      }
+    })
+    tmpArr.push('更新时间：' + formatDate(timeNow))
+    return tmpArr.join(lineBreak)
   }
   nodeEcharts({
     width: 1200,
     height: 2500,
     option: {
       title: {
-        show: true,
+        show: itemConfig.output.isShowTitle,
         text: [
           config.projectInfo.name,
           config.projectInfo.title
         ].join(' '),
-        subtext: [
-          'author：',
-          config.authorInfo.name,
-          lineBreak,
-          'github：',
-          config.authorInfo.github,
-          lineBreak,
-          'QQ群：',
-          config.authorInfo.qqGroup,
-          lineBreak,
-          '更新时间：',
-          formatDate(timeNow)
-        ].join('')
+        subtext: handleSubText()
       },
       series: [
         {
@@ -244,15 +254,19 @@ const convert2Img = function () {
       ],
       backgroundColor: '#F5F3EB'
     },
-    path:  __dirname + '/' + config.imgFileName,
+    path:  __dirname + '/' + itemConfig.output.fileName,
   })
 }
 
 // 执行转换
 // 转为脑图图片
-convert2Img()
+config.img.map(itemConfig => {
+  convert2Img(itemConfig)
+})
 // 转为markdown文件
-convert2MD()
+config.md.map(itemConfig => {
+  convert2MD(itemConfig)
+})
 // 退出命令行
 setTimeout(function () {
   process.exit()

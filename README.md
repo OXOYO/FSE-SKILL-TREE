@@ -1,11 +1,12 @@
 # FSE-SKILL-TREE
+
 Web全栈工程师技能树梳理
 
-点击链接加入群【Web全栈大神群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
+各个分支正在细化中，欢迎Star、PR。
 
+点击链接加入群【Web全栈QQ群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
 
-
-更新时间：2018-03-16 17:56
+更新时间：2018-03-19 14:31
 
 ![FSE](./utils/FSE.png)
 

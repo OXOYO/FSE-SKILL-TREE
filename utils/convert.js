@@ -74,7 +74,7 @@ const convert2MD = function (itemConfig) {
   let fileContentArr = []
   let count = 1
   let getSize = function (count) {
-    let arr = new Array(count > 6 ? 6 : count).fill('#')
+    let arr = new Array(count > 3 ? 3 : count).fill('#')
     return arr.join('') + ' '
   }
   let getTitle = function (text, isLineBreak, count, isCount) {

@@ -56,7 +56,7 @@ module.exports = [
                     type: 'catalog',
                     category: 'language',
                     url: {
-                      site: '',
+                      site: 'https://www.w3.org/html/',
                       github: ''
                     },
                     children: []
@@ -68,7 +68,7 @@ module.exports = [
                     type: 'catalog',
                     category: 'language',
                     url: {
-                      site: '',
+                      site: 'https://www.w3.org/TR/html5/',
                       github: ''
                     },
                     children: []
@@ -82,7 +82,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'language',
                 url: {
-                  site: '',
+                  site: 'http://www.ecma-international.org/',
                   github: ''
                 },
                 children: []
@@ -123,40 +123,89 @@ module.exports = [
                 },
                 children: [
                   {
-                    name: 'LESS',
-                    title: 'LESS',
+                    name: 'CSS Preprocessor',
+                    title: 'CSS Preprocessor',
                     description: '',
                     type: 'node',
-                    category: 'language',
+                    category: 'css-preprocessor',
                     url: {
                       site: '',
                       github: ''
                     },
-                    children: []
-                  },
-                  {
-                    name: 'SASS',
-                    title: 'SASS',
-                    description: '',
-                    type: 'node',
-                    category: 'language',
-                    url: {
-                      site: '',
-                      github: ''
-                    },
-                    children: []
-                  },
-                  {
-                    name: 'Stylus',
-                    title: 'Stylus',
-                    description: '',
-                    type: 'node',
-                    category: 'language',
-                    url: {
-                      site: '',
-                      github: ''
-                    },
-                    children: []
+                    children: [
+                      {
+                        name: 'LESS',
+                        title: 'LESS',
+                        description: '',
+                        type: 'node',
+                        category: 'language',
+                        url: {
+                          site: 'http://lesscss.org/',
+                          github: 'https://github.com/less'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'SASS',
+                        title: 'SASS',
+                        description: '',
+                        type: 'node',
+                        category: 'language',
+                        url: {
+                          site: 'http://sass-lang.com/',
+                          github: 'https://github.com/sass'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'Stylus',
+                        title: 'Stylus',
+                        description: '',
+                        type: 'node',
+                        category: 'language',
+                        url: {
+                          site: 'http://stylus-lang.com/',
+                          github: 'https://github.com/stylus/stylus/'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'CSS-Crush',
+                        title: 'CSS-Crush',
+                        description: '',
+                        type: 'node',
+                        category: 'language',
+                        url: {
+                          site: 'http://the-echoplex.net/csscrush/',
+                          github: 'https://github.com/peteboere/css-crush'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'Myth',
+                        title: 'Myth',
+                        description: '',
+                        type: 'node',
+                        category: 'language',
+                        url: {
+                          site: 'http://www.myth.io/',
+                          github: 'https://github.com/segmentio/myth'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'Rework',
+                        title: 'Rework',
+                        description: '',
+                        type: 'node',
+                        category: 'language',
+                        url: {
+                          site: '',
+                          github: 'https://github.com/reworkcss/rework'
+                        },
+                        children: []
+                      }
+                    ]
                   }
                 ]
               }
@@ -1400,7 +1449,93 @@ module.exports = [
                   site: 'http://php.net/',
                   github: ''
                 },
-                children: []
+                children: [
+                  {
+                    name: 'FrameWork',
+                    title: 'PHP框架',
+                    description: 'PHP框架',
+                    type: 'catalog',
+                    category: 'php-framework',
+                    url: {
+                      site: '',
+                      github: ''
+                    },
+                    children: [
+                      {
+                        name: 'thinkPHP',
+                        title: 'thinkPHP',
+                        description: '',
+                        type: 'catalog',
+                        category: 'php-framework',
+                        url: {
+                          site: 'http://www.thinkphp.cn/',
+                          github: ''
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'CodeIgniter',
+                        title: 'CodeIgniter',
+                        description: '',
+                        type: 'catalog',
+                        category: 'php-framework',
+                        url: {
+                          site: 'https://www.codeigniter.com/',
+                          github: ''
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'YII',
+                        title: 'YII',
+                        description: '',
+                        type: 'catalog',
+                        category: 'php-framework',
+                        url: {
+                          site: 'http://www.yiiframework.com/',
+                          github: ''
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'Zend Framework',
+                        title: 'Zend Framework',
+                        description: '',
+                        type: 'catalog',
+                        category: 'php-framework',
+                        url: {
+                          site: 'https://framework.zend.com/',
+                          github: ''
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'Laravel',
+                        title: 'Laravel',
+                        description: '',
+                        type: 'catalog',
+                        category: 'php-framework',
+                        url: {
+                          site: 'https://laravel.com/',
+                          github: ''
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'Phalcon',
+                        title: 'Phalcon',
+                        description: '',
+                        type: 'catalog',
+                        category: 'php-framework',
+                        url: {
+                          site: 'https://phalconphp.com/zh/',
+                          github: ''
+                        },
+                        children: []
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 name: 'Java',
@@ -1470,7 +1605,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'database',
                 url: {
-                  site: '',
+                  site: 'https://www.mysql.com/',
                   github: ''
                 },
                 children: []
@@ -1482,7 +1617,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'database',
                 url: {
-                  site: '',
+                  site: 'https://www.microsoft.com/zh-CN/sql-server/',
                   github: ''
                 },
                 children: []
@@ -1494,7 +1629,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'database',
                 url: {
-                  site: '',
+                  site: 'https://www.mongodb.com/',
                   github: ''
                 },
                 children: []
@@ -1506,7 +1641,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'database',
                 url: {
-                  site: '',
+                  site: 'https://redis.io/',
                   github: ''
                 },
                 children: []
@@ -1518,7 +1653,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'database',
                 url: {
-                  site: '',
+                  site: 'http://memcached.org/',
                   github: ''
                 },
                 children: []
@@ -1543,7 +1678,7 @@ module.exports = [
                 type: 'catalog',
                 category: 'web-server',
                 url: {
-                  site: '',
+                  site: 'http://httpd.apache.org/',
                   github: ''
                 },
                 children: []
@@ -1555,8 +1690,152 @@ module.exports = [
                 type: 'catalog',
                 category: 'web-server',
                 url: {
+                  site: 'http://nginx.org/en/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Tomcat',
+                title: 'Tomcat',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'https://tomcat.apache.org/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'IIS',
+                title: 'IIS',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'https://www.iis.net/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Lighttpd',
+                title: 'Lighttpd',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'http://www.lighttpd.net/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Zeus',
+                title: 'Zeus',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
                   site: '',
                   github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Cherokee',
+                title: 'Cherokee',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'http://cherokee-project.com/',
+                  github: 'https://github.com/cherokee/webserver'
+                },
+                children: []
+              },
+              {
+                name: 'Appweb',
+                title: 'Appweb',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'https://www.embedthis.com',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Jetty',
+                title: 'Jetty',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'http://www.eclipse.org/jetty/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Resin',
+                title: 'Resin',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'http://www.caucho.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'WebSphere',
+                title: 'WebSphere',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'https://www.ibm.com/cloud/websphere-application-platform',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'WebLogic',
+                title: 'WebLogic',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'https://www.oracle.com/middleware/weblogic/index.html',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Tengine',
+                title: 'Tengine',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'http://tengine.taobao.org/index_cn.html',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'H2O',
+                title: 'H2O',
+                description: '',
+                type: 'catalog',
+                category: 'web-server',
+                url: {
+                  site: 'https://h2o.examp1e.net/',
+                  github: 'https://github.com/h2o/h2o/'
                 },
                 children: []
               }

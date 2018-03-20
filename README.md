@@ -6,7 +6,7 @@ Web全栈工程师技能树梳理
 
 点击链接加入群【Web全栈QQ群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
 
-更新时间：2018-03-20 15:09
+更新时间：2018-03-20 16:46
 
 ![FSE](./utils/FSE.png)
 
@@ -514,6 +514,14 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 
 
+### Foundation  
+
+[site](https://foundation.zurb.com/)  [github](https://github.com/zurb/foundation-sites)  
+
+  The most advanced responsive front-end framework in the world.
+
+
+
 ### 文档工具  
 
 
@@ -755,6 +763,198 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 [site](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)  [github](https://github.com/peachananr/onepage-scroll)  
 
   Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin
+
+
+
+### Parallax.js  
+
+[site](http://matthew.wagerfield.com/parallax/)  [github](https://github.com/wagerfield/parallax)  
+
+  Parallax Engine that reacts to the orientation of a smart device
+
+
+
+### Typeahead.js  
+
+[site](http://twitter.github.com/typeahead.js/)  [github](https://github.com/twitter/typeahead.js/)  
+
+  typeahead.js is a fast and fully-featured autocomplete library.
+
+
+
+### Dragdealer.js  
+
+[site](http://skidding.github.io/dragdealer)  [github](https://github.com/skidding/dragdealer)  
+
+  Drag-based JavaScript component, embracing endless UI solutions
+
+
+
+### Bounce.js  
+
+[site](http://bouncejs.com/)  [github](https://github.com/tictail/bounce.js)  
+
+  Create beautiful CSS3 powered animations in no time.
+
+
+
+### pagePiling.js  
+
+[site](http://alvarotrigo.com/pagePiling/)  [github](https://github.com/alvarotrigo/pagePiling.js)  
+
+  pagePiling plugin by Alvaro Trigo. Create a scrolling pile of sections.
+
+
+
+### multiScroll.js  
+
+[site](http://alvarotrigo.com/multiScroll/)  [github](https://github.com/alvarotrigo/multiscroll.js)  
+
+  multiscroll plugin by Alvaro Trigo. Create scrolling split websites.
+
+
+
+### favico.js  
+
+[site](http://lab.ejci.net/favico.js/)  [github](https://github.com/ejci/favico.js)  
+
+  Make use of your favicon with badges, images or videos
+
+
+
+### Midnight.js  
+
+[site](http://aerolab.github.io/midnight.js/)  [github](https://github.com/Aerolab/midnight.js)  
+
+  Switch your nav's design on the fly
+
+
+
+### anime.js  
+
+[site](http://animejs.com)  [github](https://github.com/juliangarnier/anime)  
+
+  JavaScript Animation Engine
+
+
+
+### Keycodes  
+
+[site](http://keycode.info/)  [github](https://github.com/wesbos/keycodes)  
+
+  Easy visualizer for JavaScript KeyCodes
+
+
+
+### Sortable  
+
+[site](http://rubaxa.github.io/Sortable/)  [github](https://github.com/RubaXa/Sortable)  
+
+  Sortable — is a JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports Meteor, AngularJS, React, Polymer, Knockout and any CSS library, e.g. Bootstrap. 
+
+
+
+### Flexdatalist  
+
+[site](http://projects.sergiodinislopes.pt/flexdatalist/)  [github](https://github.com/sergiodlopes/jquery-flexdatalist)  
+
+  Flexible input autocomplete/datalist plugin for jQuery
+
+
+
+### Slideout.js  
+
+[site](https://slideout.js.org/)  [github](https://github.com/mango/slideout)  
+
+  A touch slideout navigation menu for your mobile web apps.
+
+
+
+### jQuery.my  
+
+[site](http://jquerymy.com/)  [github](https://github.com/ermouth/jQuery.my/)  
+
+  jQuery.my is a plugin that binds form controls with js data structures.
+
+
+
+### Cleave.js  
+
+[site](http://nosir.github.io/cleave.js/)  [github](https://github.com/nosir/cleave.js)  
+
+  Format input text content when you are typing...
+
+
+
+### page.js  
+
+[github](https://github.com/visionmedia/page.js)  
+
+  Micro client-side router inspired by the Express router
+
+
+
+### Selectize.js  
+
+[site](http://selectize.github.io/selectize.js/)  [github](https://github.com/selectize/selectize.js/)  
+
+  Selectize is the hybrid of a textbox and <select> box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc. 
+
+
+
+### jQuery Nice Select  
+
+[site](http://hernansartorio.com/jquery-nice-select/)  [github](https://github.com/hernansartorio/jquery-nice-select)  
+
+  A lightweight jQuery plugin that replaces native select elements with customizable dropdowns.
+
+
+
+### Tether  
+
+[site](http://tether.io/)  [github](https://github.com/HubSpot/tether)  
+
+  A positioning engine to make overlays, tooltips and dropdowns bette
+
+
+
+### Shepherd  
+
+[site](http://github.hubspot.com/shepherd/)  [github](https://github.com/HubSpot/shepherd)  
+
+  Guide your users through a tour of your app
+
+
+
+### Tooltip  
+
+[site](http://github.hubspot.com/tooltip)  [github](https://github.com/HubSpot/tooltip)  
+
+  Tooltip.js is a Javascript and CSS library for creating styleable tooltips.
+
+
+
+### Select2  
+
+[site](https://select2.org/)  [github](https://github.com/select2/select2)  
+
+  Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
+
+
+
+### iziToast  
+
+[site](http://izitoast.marcelodolce.com/)  [github](https://github.com/dolce/iziToast)  
+
+  Elegant, responsive, flexible and lightweight notification plugin with no dependencies.
+
+
+
+### iziModal  
+
+[site](http://izimodal.marcelodolce.com/)  [github](https://github.com/dolce/iziModal)  
+
+  Elegant, responsive, flexible and lightweight modal plugin with jQuery. 
 
 
 

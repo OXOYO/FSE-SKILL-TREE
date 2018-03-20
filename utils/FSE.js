@@ -1278,6 +1278,18 @@ module.exports = [
                   github: ''
                 },
                 children: []
+              },
+              {
+                name: 'Foundation',
+                title: 'Foundation',
+                description: 'The most advanced responsive front-end framework in the world.',
+                type: 'catalog',
+                category: 'front-end-framework',
+                url: {
+                  site: 'https://foundation.zurb.com/',
+                  github: 'https://github.com/zurb/foundation-sites'
+                },
+                children: []
               }
             ]
           },
@@ -1651,6 +1663,294 @@ module.exports = [
                 url: {
                   site: 'http://www.thepetedesign.com/demos/onepage_scroll_demo.html',
                   github: 'https://github.com/peachananr/onepage-scroll'
+                },
+                children: []
+              },
+              {
+                name: 'Parallax.js',
+                title: 'Parallax.js',
+                description: 'Parallax Engine that reacts to the orientation of a smart device',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://matthew.wagerfield.com/parallax/',
+                  github: 'https://github.com/wagerfield/parallax'
+                },
+                children: []
+              },
+              {
+                name: 'Typeahead.js',
+                title: 'Typeahead.js',
+                description: 'typeahead.js is a fast and fully-featured autocomplete library.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://twitter.github.com/typeahead.js/',
+                  github: 'https://github.com/twitter/typeahead.js/'
+                },
+                children: []
+              },
+              {
+                name: 'Dragdealer.js',
+                title: 'Dragdealer.js',
+                description: 'Drag-based JavaScript component, embracing endless UI solutions',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://skidding.github.io/dragdealer',
+                  github: 'https://github.com/skidding/dragdealer'
+                },
+                children: []
+              },
+              {
+                name: 'Bounce.js',
+                title: 'Bounce.js',
+                description: 'Create beautiful CSS3 powered animations in no time.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://bouncejs.com/',
+                  github: 'https://github.com/tictail/bounce.js'
+                },
+                children: []
+              },
+              {
+                name: 'pagePiling.js',
+                title: 'pagePiling.js',
+                description: 'pagePiling plugin by Alvaro Trigo. Create a scrolling pile of sections.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://alvarotrigo.com/pagePiling/',
+                  github: 'https://github.com/alvarotrigo/pagePiling.js'
+                },
+                children: []
+              },
+              {
+                name: 'multiScroll.js',
+                title: 'multiScroll.js',
+                description: 'multiscroll plugin by Alvaro Trigo. Create scrolling split websites.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://alvarotrigo.com/multiScroll/',
+                  github: 'https://github.com/alvarotrigo/multiscroll.js'
+                },
+                children: []
+              },
+              {
+                name: 'favico.js',
+                title: 'favico.js',
+                description: 'Make use of your favicon with badges, images or videos',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://lab.ejci.net/favico.js/',
+                  github: 'https://github.com/ejci/favico.js'
+                },
+                children: []
+              },
+              {
+                name: 'Midnight.js',
+                title: 'Midnight.js',
+                description: "Switch your nav's design on the fly",
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://aerolab.github.io/midnight.js/',
+                  github: 'https://github.com/Aerolab/midnight.js'
+                },
+                children: []
+              },
+              {
+                name: 'anime.js',
+                title: 'anime.js',
+                description: 'JavaScript Animation Engine',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://animejs.com',
+                  github: 'https://github.com/juliangarnier/anime'
+                },
+                children: []
+              },
+              {
+                name: 'Keycodes',
+                title: 'Keycodes',
+                description: 'Easy visualizer for JavaScript KeyCodes',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://keycode.info/',
+                  github: 'https://github.com/wesbos/keycodes'
+                },
+                children: []
+              },
+              {
+                name: 'Sortable',
+                title: 'Sortable',
+                description: 'Sortable — is a JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports Meteor, AngularJS, React, Polymer, Knockout and any CSS library, e.g. Bootstrap. ',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://rubaxa.github.io/Sortable/',
+                  github: 'https://github.com/RubaXa/Sortable'
+                },
+                children: []
+              },
+              {
+                name: 'Flexdatalist',
+                title: 'Flexdatalist',
+                description: 'Flexible input autocomplete/datalist plugin for jQuery',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://projects.sergiodinislopes.pt/flexdatalist/',
+                  github: 'https://github.com/sergiodlopes/jquery-flexdatalist'
+                },
+                children: []
+              },
+              {
+                name: 'Slideout.js',
+                title: 'Slideout.js',
+                description: 'A touch slideout navigation menu for your mobile web apps.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://slideout.js.org/',
+                  github: 'https://github.com/mango/slideout'
+                },
+                children: []
+              },
+              {
+                name: 'jQuery.my',
+                title: 'jQuery.my',
+                description: 'jQuery.my is a plugin that binds form controls with js data structures.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://jquerymy.com/',
+                  github: 'https://github.com/ermouth/jQuery.my/'
+                },
+                children: []
+              },
+              {
+                name: 'Cleave.js',
+                title: 'Cleave.js',
+                description: 'Format input text content when you are typing...',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://nosir.github.io/cleave.js/',
+                  github: 'https://github.com/nosir/cleave.js'
+                },
+                children: []
+              },
+              {
+                name: 'page.js',
+                title: 'page.js',
+                description: 'Micro client-side router inspired by the Express router',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: '',
+                  github: 'https://github.com/visionmedia/page.js'
+                },
+                children: []
+              },
+              {
+                name: 'Selectize.js',
+                title: 'Selectize.js',
+                description: "Selectize is the hybrid of a textbox and <select> box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc. ",
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://selectize.github.io/selectize.js/',
+                  github: 'https://github.com/selectize/selectize.js/'
+                },
+                children: []
+              },
+              {
+                name: 'jQuery Nice Select',
+                title: 'jQuery Nice Select',
+                description: 'A lightweight jQuery plugin that replaces native select elements with customizable dropdowns.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://hernansartorio.com/jquery-nice-select/',
+                  github: 'https://github.com/hernansartorio/jquery-nice-select'
+                },
+                children: []
+              },
+              {
+                name: 'Tether',
+                title: 'Tether',
+                description: 'A positioning engine to make overlays, tooltips and dropdowns bette',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://tether.io/',
+                  github: 'https://github.com/HubSpot/tether'
+                },
+                children: []
+              },
+              {
+                name: 'Shepherd',
+                title: 'Shepherd',
+                description: 'Guide your users through a tour of your app',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://github.hubspot.com/shepherd/',
+                  github: 'https://github.com/HubSpot/shepherd'
+                },
+                children: []
+              },
+              {
+                name: 'Tooltip',
+                title: 'Tooltip',
+                description: 'Tooltip.js is a Javascript and CSS library for creating styleable tooltips.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://github.hubspot.com/tooltip',
+                  github: 'https://github.com/HubSpot/tooltip'
+                },
+                children: []
+              },
+              {
+                name: 'Select2',
+                title: 'Select2',
+                description: 'Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://select2.org/',
+                  github: 'https://github.com/select2/select2'
+                },
+                children: []
+              },
+              {
+                name: 'iziToast',
+                title: 'iziToast',
+                description: 'Elegant, responsive, flexible and lightweight notification plugin with no dependencies.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://izitoast.marcelodolce.com/',
+                  github: 'https://github.com/dolce/iziToast'
+                },
+                children: []
+              },
+              {
+                name: 'iziModal',
+                title: 'iziModal',
+                description: 'Elegant, responsive, flexible and lightweight modal plugin with jQuery. ',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://izimodal.marcelodolce.com/',
+                  github: 'https://github.com/dolce/iziModal'
                 },
                 children: []
               }

@@ -1343,6 +1343,320 @@ module.exports = [
             ]
           },
           {
+            name: 'Database',
+            title: '前端数据库',
+            description: '前端数据库',
+            type: 'catalog',
+            category: 'front-end-database',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: [
+              {
+                name: 'PouchDB',
+                title: 'PouchDB',
+                description: 'PouchDB is a pocket-sized database.',
+                type: 'catalog',
+                category: 'front-end-database',
+                url: {
+                  site: 'https://pouchdb.com/',
+                  github: 'https://github.com/pouchdb/pouchdb'
+                },
+                children: []
+              },
+              {
+                name: 'IndexedDB',
+                title: 'IndexedDB',
+                description: '',
+                type: 'catalog',
+                category: 'front-end-database',
+                url: {
+                  site: 'https://www.w3.org/TR/IndexedDB/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'WebSql',
+                title: 'WebSql',
+                description: '',
+                type: 'catalog',
+                category: 'front-end-database',
+                url: {
+                  site: 'https://www.w3.org/TR/webdatabase/',
+                  github: ''
+                },
+                children: []
+              }
+            ]
+          },
+          {
+            name: 'Libraries',
+            title: '前端类库',
+            description: '前端数据库',
+            type: 'catalog',
+            category: 'front-end-libraries',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: [
+              {
+                name: 'Particles.js',
+                title: 'Particles.js',
+                description: 'A lightweight JavaScript library for creating particles.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://vincentgarreau.com/particles.js/',
+                  github: 'https://github.com/VincentGarreau/particles.js/'
+                },
+                children: []
+              },
+              {
+                name: 'Three.js',
+                title: 'Three.js',
+                description: 'Javascript 3D library.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://threejs.org/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Fullpage.js',
+                title: 'Fullpage.js',
+                description: 'fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://alvarotrigo.com/fullPage/',
+                  github: 'https://github.com/alvarotrigo/fullPage.js/'
+                },
+                children: []
+              },
+              {
+                name: 'Typed.js',
+                title: 'Typed.js',
+                description: 'A JavaScript Typing Animation Library.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://mattboldt.com/demos/typed-js/',
+                  github: 'https://github.com/mattboldt/typed.js'
+                },
+                children: []
+              },
+              {
+                name: 'Waypoints',
+                title: 'Waypoints',
+                description: 'Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://imakewebthings.com/waypoints/',
+                  github: 'https://github.com/imakewebthings/waypoints'
+                },
+                children: []
+              },
+              {
+                name: 'Highlight.js',
+                title: 'Highlight.js',
+                description: 'Javascript syntax highlighter.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://highlightjs.org/',
+                  github: 'https://github.com/isagalaev/highlight.js'
+                },
+                children: []
+              },
+              {
+                name: 'Chart.js',
+                title: 'Chart.js',
+                description: 'Simple HTML5 Charts using the <canvas> tag.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://www.chartjs.org/',
+                  github: 'https://github.com/chartjs/Chart.js'
+                },
+                children: []
+              },
+              {
+                name: 'InstantClick',
+                title: 'InstantClick',
+                description: 'InstantClick makes following links in your website instant. ',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://instantclick.io',
+                  github: 'https://github.com/dieulot/instantclick'
+                },
+                children: []
+              },
+              {
+                name: 'Chartist',
+                title: 'Chartist',
+                description: 'Simple responsive charts.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://gionkunz.github.io/chartist-js/',
+                  github: 'https://github.com/gionkunz/chartist-js'
+                },
+                children: []
+              },
+              {
+                name: 'Motio',
+                title: 'Motio',
+                description: 'Small JavaScript library for sprite based animations and panning. ',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://darsa.in/motio',
+                  github: 'https://github.com/darsain/motio'
+                },
+                children: []
+              },
+              {
+                name: 'Animsition',
+                title: 'Animsition',
+                description: 'A simple and easy jQuery plugin for CSS animated page transitions.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://git.blivesta.com/animsition',
+                  github: 'https://github.com/blivesta/animsition'
+                },
+                children: []
+              },
+              {
+                name: 'Barba.js',
+                title: 'Barba.js',
+                description: "Create badass, fluid and smooth transition between your website's pages.",
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://barbajs.org/',
+                  github: 'https://github.com/luruke/barba.js'
+                },
+                children: []
+              },
+              {
+                name: 'TwentyTwenty',
+                title: 'TwentyTwenty',
+                description: 'jQuery Plugin to Compare Images.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'https://zurb.com/playground/twentytwenty',
+                  github: 'https://github.com/zurb/twentytwenty'
+                },
+                children: []
+              },
+              {
+                name: 'vivus.js',
+                title: 'vivus.js',
+                description: 'JavaScript library to make drawing animation on SVG.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: '',
+                  github: 'https://github.com/maxwellito/vivus'
+                },
+                children: []
+              },
+              {
+                name: 'WOW.js',
+                title: 'WOW.js',
+                description: 'Reveal CSS animation as you scroll down a page.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://mynameismatthieu.com/WOW/',
+                  github: 'https://github.com/matthieua/WOW'
+                },
+                children: []
+              },
+              {
+                name: 'Scrolline.js',
+                title: 'Scrolline.js',
+                description: 'A jQuery plugin. Create a scroll line bar indicator on the page.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://anthonyly.com/jquery.plugins/scrolline/',
+                  github: 'https://github.com/anthonyly/Scrolline.js'
+                },
+                children: []
+              },
+              {
+                name: 'Velocity',
+                title: 'Velocity',
+                description: 'Accelerated JavaScript animation.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://velocityjs.org/',
+                  github: 'https://github.com/julianshapiro/velocity'
+                },
+                children: []
+              },
+              {
+                name: 'AOS',
+                title: 'AOS',
+                description: 'Animate on scroll library',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://michalsnik.github.io/aos/',
+                  github: 'https://github.com/michalsnik/aos'
+                },
+                children: []
+              },
+              {
+                name: 'Handlebars.js',
+                title: 'Handlebars.js',
+                description: 'Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://handlebarsjs.com/',
+                  github: 'https://github.com/wycats/handlebars.js/'
+                },
+                children: []
+              },
+              {
+                name: 'jInvertScroll',
+                title: 'jInvertScroll',
+                description: 'A lightweight jQuery vertical scroll - horizontal move plugin with parallax effect. ',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://www.pixxelfactory.net/jInvertScroll',
+                  github: 'https://github.com/pixxelfactory/jInvertScroll'
+                },
+                children: []
+              },
+              {
+                name: 'One Page Scroll',
+                title: 'One Page Scroll',
+                description: 'Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin',
+                type: 'catalog',
+                category: 'front-end-libraries',
+                url: {
+                  site: 'http://www.thepetedesign.com/demos/onepage_scroll_demo.html',
+                  github: 'https://github.com/peachananr/onepage-scroll'
+                },
+                children: []
+              }
+            ]
+          },
+          {
             name: 'Other',
             title: '其他知识点',
             description: '其他知识点',
@@ -1655,6 +1969,18 @@ module.exports = [
                 url: {
                   site: 'http://memcached.org/',
                   github: ''
+                },
+                children: []
+              },
+              {
+                name: 'SSDB',
+                title: 'SSDB',
+                description: '',
+                type: 'catalog',
+                category: 'database',
+                url: {
+                  site: 'http://ssdb.io/zh_cn/',
+                  github: 'https://github.com/ideawu/ssdb'
                 },
                 children: []
               }

@@ -6,7 +6,7 @@ Web全栈工程师技能树梳理
 
 点击链接加入群【Web全栈QQ群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
 
-更新时间：2018-03-19 17:58
+更新时间：2018-03-20 15:09
 
 ![FSE](./utils/FSE.png)
 
@@ -554,6 +554,210 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 
 
+### 前端数据库  
+
+
+
+  前端数据库
+
+
+
+### PouchDB  
+
+[site](https://pouchdb.com/)  [github](https://github.com/pouchdb/pouchdb)  
+
+  PouchDB is a pocket-sized database.
+
+
+
+### IndexedDB  
+
+[site](https://www.w3.org/TR/IndexedDB/)  
+
+
+
+### WebSql  
+
+[site](https://www.w3.org/TR/webdatabase/)  
+
+
+
+### 前端类库  
+
+
+
+  前端数据库
+
+
+
+### Particles.js  
+
+[site](https://vincentgarreau.com/particles.js/)  [github](https://github.com/VincentGarreau/particles.js/)  
+
+  A lightweight JavaScript library for creating particles.
+
+
+
+### Three.js  
+
+[site](https://threejs.org/)  
+
+  Javascript 3D library.
+
+
+
+### Fullpage.js  
+
+[site](https://alvarotrigo.com/fullPage/)  [github](https://github.com/alvarotrigo/fullPage.js/)  
+
+  fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple.
+
+
+
+### Typed.js  
+
+[site](https://mattboldt.com/demos/typed-js/)  [github](https://github.com/mattboldt/typed.js)  
+
+  A JavaScript Typing Animation Library.
+
+
+
+### Waypoints  
+
+[site](http://imakewebthings.com/waypoints/)  [github](https://github.com/imakewebthings/waypoints)  
+
+  Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.
+
+
+
+### Highlight.js  
+
+[site](https://highlightjs.org/)  [github](https://github.com/isagalaev/highlight.js)  
+
+  Javascript syntax highlighter.
+
+
+
+### Chart.js  
+
+[site](http://www.chartjs.org/)  [github](https://github.com/chartjs/Chart.js)  
+
+  Simple HTML5 Charts using the <canvas> tag.
+
+
+
+### InstantClick  
+
+[site](http://instantclick.io)  [github](https://github.com/dieulot/instantclick)  
+
+  InstantClick makes following links in your website instant. 
+
+
+
+### Chartist  
+
+[site](http://gionkunz.github.io/chartist-js/)  [github](https://github.com/gionkunz/chartist-js)  
+
+  Simple responsive charts.
+
+
+
+### Motio  
+
+[site](http://darsa.in/motio)  [github](https://github.com/darsain/motio)  
+
+  Small JavaScript library for sprite based animations and panning. 
+
+
+
+### Animsition  
+
+[site](http://git.blivesta.com/animsition)  [github](https://github.com/blivesta/animsition)  
+
+  A simple and easy jQuery plugin for CSS animated page transitions.
+
+
+
+### Barba.js  
+
+[site](http://barbajs.org/)  [github](https://github.com/luruke/barba.js)  
+
+  Create badass, fluid and smooth transition between your website's pages.
+
+
+
+### TwentyTwenty  
+
+[site](https://zurb.com/playground/twentytwenty)  [github](https://github.com/zurb/twentytwenty)  
+
+  jQuery Plugin to Compare Images.
+
+
+
+### vivus.js  
+
+[github](https://github.com/maxwellito/vivus)  
+
+  JavaScript library to make drawing animation on SVG.
+
+
+
+### WOW.js  
+
+[site](http://mynameismatthieu.com/WOW/)  [github](https://github.com/matthieua/WOW)  
+
+  Reveal CSS animation as you scroll down a page.
+
+
+
+### Scrolline.js  
+
+[site](http://anthonyly.com/jquery.plugins/scrolline/)  [github](https://github.com/anthonyly/Scrolline.js)  
+
+  A jQuery plugin. Create a scroll line bar indicator on the page.
+
+
+
+### Velocity  
+
+[site](http://velocityjs.org/)  [github](https://github.com/julianshapiro/velocity)  
+
+  Accelerated JavaScript animation.
+
+
+
+### AOS  
+
+[site](http://michalsnik.github.io/aos/)  [github](https://github.com/michalsnik/aos)  
+
+  Animate on scroll library
+
+
+
+### Handlebars.js  
+
+[site](http://handlebarsjs.com/)  [github](https://github.com/wycats/handlebars.js/)  
+
+  Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
+
+
+
+### jInvertScroll  
+
+[site](http://www.pixxelfactory.net/jInvertScroll)  [github](https://github.com/pixxelfactory/jInvertScroll)  
+
+  A lightweight jQuery vertical scroll - horizontal move plugin with parallax effect. 
+
+
+
+### One Page Scroll  
+
+[site](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)  [github](https://github.com/peachananr/onepage-scroll)  
+
+  Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin
+
+
+
 ### 其他知识点  
 
 
@@ -723,6 +927,12 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 ### Memcached  
 
 [site](http://memcached.org/)  
+
+
+
+### SSDB  
+
+[site](http://ssdb.io/zh_cn/)  [github](https://github.com/ideawu/ssdb)  
 
 
 

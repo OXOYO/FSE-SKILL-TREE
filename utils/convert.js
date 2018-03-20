@@ -209,8 +209,8 @@ const convert2Img = function (itemConfig) {
     return tmpArr.join(lineBreak)
   }
   nodeEcharts({
-    width: 1200,
-    height: 2500,
+    width: itemConfig.output.width || 1200,
+    height: itemConfig.output.height || 2500,
     option: {
       title: {
         show: itemConfig.output.isShowTitle,

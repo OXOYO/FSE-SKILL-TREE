@@ -31,6 +31,8 @@ module.exports = {
       output: {
         fileName: 'FSE.png',
         isShowTitle: true,
+        width: 1500,
+        height: 5000,
         info: {
           author: 'OXOYO',
           github: 'https://github.com/OXOYO/FSE-SKILL-TREE',
@@ -43,6 +45,8 @@ module.exports = {
       output: {
         fileName: 'FSE_preview.png',
         isShowTitle: true,
+        width: 1500,
+        height: 5000,
         info: {
           author: ''
         }

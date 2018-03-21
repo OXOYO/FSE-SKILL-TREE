@@ -2468,6 +2468,273 @@ module.exports = [
             ]
           }
         ]
+      },
+      {
+        name: 'Other',
+        title: 'Other',
+        description: '通用知识点、酷站',
+        type: 'catalog',
+        category: '',
+        url: {
+          site: '',
+          github: ''
+        },
+        children: [
+          {
+            name: 'CheatSheets',
+            title: 'CheatSheets',
+            description: '小抄、备忘录',
+            type: 'catalog',
+            category: 'cheat-sheets',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: [
+              {
+                name: 'OverApi',
+                title: 'OverApi',
+                description: 'Collecting All Cheat Sheets',
+                type: 'catalog',
+                category: 'cheat-sheets',
+                url: {
+                  site: 'http://overapi.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'PythonSheets',
+                title: 'PythonSheets',
+                description: 'Python Cheat Sheet',
+                type: 'catalog',
+                category: 'cheat-sheets',
+                url: {
+                  site: 'https://www.pythonsheets.com/',
+                  github: 'https://github.com/crazyguitar/pysheeet'
+                },
+                children: []
+              },
+              {
+                name: 'Cheat-Sheets',
+                title: 'Cheat-Sheets',
+                description: 'All cheat sheets, round-ups, quick reference cards, quick reference guides and quick reference sheets in one page. The only one you need.',
+                type: 'catalog',
+                category: 'cheat-sheets',
+                url: {
+                  site: 'http://www.cheat-sheets.org/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'DevDocs',
+                title: 'DevDocs',
+                description: '',
+                type: 'catalog',
+                category: 'cheat-sheets',
+                url: {
+                  site: 'http://devdocs.io/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'IT eBooks',
+                title: 'IT eBooks',
+                description: '',
+                type: 'catalog',
+                category: 'cheat-sheets',
+                url: {
+                  site: 'http://www.it-ebooks.info/',
+                  github: ''
+                },
+                children: []
+              },
+            ]
+          },
+          {
+            name: 'CoolSite',
+            title: 'CoolSite',
+            description: '酷站',
+            type: 'catalog',
+            category: 'cool-site',
+            url: {
+              site: '',
+              github: ''
+            },
+            children: [
+              {
+                name: 'JS1k',
+                title: 'JS1k',
+                description: 'JS1k: The JavaScript code golfing competition',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://js1k.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'HelloWorldCollection',
+                title: 'HelloWorldCollection',
+                description: '“Hello World”大全',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://netsmell.com/apps/helloworldcollection/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Converio',
+                title: 'Converio',
+                description: '文件转换器。在线且免费',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://convertio.co/zh/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'tinypng',
+                title: 'tinypng',
+                description: 'Smart PNG and JPEG compression',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://tinypng.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Rainy Mood',
+                title: 'Rainy Mood',
+                description: 'Helps you to focus, relax, and sleep',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://www.rainymood.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'Chrome experiments',
+                title: 'Chrome experiments',
+                description: 'Creative code for the web.',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://experiments.withgoogle.com/chrome',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'vrn',
+                title: 'vrn',
+                description: '3D Face Reconstruction from a Single Image',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://cvl-demos.cs.nott.ac.uk/vrn/',
+                  github: 'https://github.com/AaronJackson/vrn'
+                },
+                children: []
+              },
+              {
+                name: 'WordArt',
+                title: 'WordArt',
+                description: 'WordArt.com is an online word art creator that enables you to create amazing and unique word art with ease.',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://wordart.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'weavesilk',
+                title: 'vrweavesilkn',
+                description: 'interactive generative art',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://weavesilk.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'autodraw',
+                title: 'autodraw',
+                description: 'Fast drawing for everyone.',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://www.autodraw.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'easyicon',
+                title: 'easyicon',
+                description: '',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://www.easyicon.net/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'geektyper',
+                title: 'geektyper',
+                description: '',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://geektyper.com/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'hackcode',
+                title: 'hackcode',
+                description: '',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'http://hackcode.ishoulu.com/scp/',
+                  github: ''
+                },
+                children: []
+              },
+              {
+                name: 'codepen',
+                title: 'codepen',
+                description: 'CodePen is a social development environment for front-end designers and developers. ',
+                type: 'catalog',
+                category: 'cool-site',
+                url: {
+                  site: 'https://codepen.io/',
+                  github: ''
+                },
+                children: []
+              }
+            ]
+          }
+        ]
       }
     ]
   }

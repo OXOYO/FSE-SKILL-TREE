@@ -6,7 +6,7 @@ Web全栈工程师技能树梳理
 
 点击链接加入群【Web全栈QQ群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
 
-更新时间：2018-03-20 16:46
+更新时间：2018-03-21 11:10
 
 ![FSE](./utils/FSE.png)
 
@@ -1223,6 +1223,172 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 ### H2O  
 
 [site](https://h2o.examp1e.net/)  [github](https://github.com/h2o/h2o/)  
+
+
+
+## Other  
+
+
+
+  通用知识点、酷站
+
+
+
+### CheatSheets  
+
+
+
+  小抄、备忘录
+
+
+
+### OverApi  
+
+[site](http://overapi.com/)  
+
+  Collecting All Cheat Sheets
+
+
+
+### PythonSheets  
+
+[site](https://www.pythonsheets.com/)  [github](https://github.com/crazyguitar/pysheeet)  
+
+  Python Cheat Sheet
+
+
+
+### Cheat-Sheets  
+
+[site](http://www.cheat-sheets.org/)  
+
+  All cheat sheets, round-ups, quick reference cards, quick reference guides and quick reference sheets in one page. The only one you need.
+
+
+
+### DevDocs  
+
+[site](http://devdocs.io/)  
+
+
+
+### IT eBooks  
+
+[site](http://www.it-ebooks.info/)  
+
+
+
+### CoolSite  
+
+
+
+  酷站
+
+
+
+### JS1k  
+
+[site](https://js1k.com/)  
+
+  JS1k: The JavaScript code golfing competition
+
+
+
+### HelloWorldCollection  
+
+[site](http://netsmell.com/apps/helloworldcollection/)  
+
+  “Hello World”大全
+
+
+
+### Converio  
+
+[site](https://convertio.co/zh/)  
+
+  文件转换器。在线且免费
+
+
+
+### tinypng  
+
+[site](https://tinypng.com/)  
+
+  Smart PNG and JPEG compression
+
+
+
+### Rainy Mood  
+
+[site](http://www.rainymood.com/)  
+
+  Helps you to focus, relax, and sleep
+
+
+
+### Chrome experiments  
+
+[site](https://experiments.withgoogle.com/chrome)  
+
+  Creative code for the web.
+
+
+
+### vrn  
+
+[site](http://cvl-demos.cs.nott.ac.uk/vrn/)  [github](https://github.com/AaronJackson/vrn)  
+
+  3D Face Reconstruction from a Single Image
+
+
+
+### WordArt  
+
+[site](https://wordart.com/)  
+
+  WordArt.com is an online word art creator that enables you to create amazing and unique word art with ease.
+
+
+
+### vrweavesilkn  
+
+[site](http://weavesilk.com/)  
+
+  interactive generative art
+
+
+
+### autodraw  
+
+[site](https://www.autodraw.com/)  
+
+  Fast drawing for everyone.
+
+
+
+### easyicon  
+
+[site](http://www.easyicon.net/)  
+
+
+
+### geektyper  
+
+[site](http://geektyper.com/)  
+
+
+
+### hackcode  
+
+[site](http://hackcode.ishoulu.com/scp/)  
+
+
+
+### codepen  
+
+[site](https://codepen.io/)  
+
+  CodePen is a social development environment for front-end designers and developers. 
 
 
 

@@ -39,18 +39,6 @@ module.exports = {
           'Web全栈QQ群': '333765077'
         }
       }
-    },
-    {
-      // 输出
-      output: {
-        fileName: 'FSE_preview.png',
-        isShowTitle: true,
-        width: 1500,
-        height: 5000,
-        info: {
-          author: ''
-        }
-      }
     }
   ],
   // 语言包

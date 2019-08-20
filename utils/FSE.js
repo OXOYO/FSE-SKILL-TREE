@@ -2051,7 +2051,81 @@ module.exports = [
                   site: 'https://nodejs.org/',
                   github: ''
                 },
-                children: []
+                children: [
+                  {
+                    name: 'FrameWork',
+                    title: 'NodeJS框架',
+                    description: 'NodeJS框架',
+                    type: 'catalog',
+                    category: 'nodeJS-framework',
+                    url: {
+                      site: '',
+                      github: ''
+                    },
+                    children: [
+                      {
+                        name: 'express',
+                        title: 'express',
+                        description: '',
+                        type: 'catalog',
+                        category: 'nodeJS-framework',
+                        url: {
+                          site: 'https://expressjs.com/',
+                          github: 'https://github.com/expressjs/express'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'koa',
+                        title: 'koa',
+                        description: '',
+                        type: 'catalog',
+                        category: 'nodeJS-framework',
+                        url: {
+                          site: 'https://koajs.com/',
+                          github: 'https://github.com/koajs/koa'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'thinkjs',
+                        title: 'thinkjs',
+                        description: '',
+                        type: 'catalog',
+                        category: 'nodeJS-framework',
+                        url: {
+                          site: 'https://thinkjs.org/',
+                          github: 'https://github.com/thinkjs/thinkjs'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'electron',
+                        title: 'electron',
+                        description: '',
+                        type: 'catalog',
+                        category: 'nodeJS-framework',
+                        url: {
+                          site: 'https://electronjs.org/',
+                          github: 'https://github.com/electron/electron'
+                        },
+                        children: []
+                      },
+                      {
+                        name: 'nwjs',
+                        title: 'nwjs',
+                        description: '',
+                        type: 'catalog',
+                        category: 'nodeJS-framework',
+                        url: {
+                          site: 'https://nwjs.io/',
+                          github: 'https://github.com/nwjs/nw.js'
+                        },
+                        children: []
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 name: 'PHP',

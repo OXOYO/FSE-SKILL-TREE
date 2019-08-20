@@ -88,6 +88,11 @@ const convert2MD = function (itemConfig) {
   }
   let getDescription = function (text) {
     let tmpArr = []
+    text = text.replace(/&(?!#?[a-zA-Z0-9]+;)/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/'/g, '&#39;')
+      .replace(/"/g, '&quot;')
     tmpArr.push('  ' + text)
     tmpArr.push(lineBreak)
     return tmpArr
@@ -147,7 +152,7 @@ const convert2MD = function (itemConfig) {
   // 拼装header
   let handlerHeader = () => {
     let tmpArr = []
-    Object.keys(config.projectInfo).map(key => {
+    Object.keys(config.projectInfo).forEach(key => {
       if (key === 'name') {
         tmpArr.push('# ' + config.projectInfo[key])
       } else {
@@ -199,7 +204,7 @@ const convert2Img = function (itemConfig) {
   // 处理subText
   let handleSubText = function () {
     let tmpArr =[]
-    Object.keys(itemConfig.output.info).map((key) => {
+    Object.keys(itemConfig.output.info).forEach(key => {
       let val = itemConfig.output.info[key]
       if(val) {
         tmpArr.push([key, val].join('：'))

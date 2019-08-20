@@ -6,7 +6,7 @@ Web全栈工程师技能树梳理
 
 点击链接加入群【Web全栈QQ群】：https://jq.qq.com/?_wv=1027&k=53iWbrr
 
-更新时间：2019-08-20 09:23
+更新时间：2019-08-20 10:02
 
 ![FSE](./utils/FSE.png)
 
@@ -650,7 +650,7 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 [site](http://www.chartjs.org/)  [github](https://github.com/chartjs/Chart.js)  
 
-  Simple HTML5 Charts using the <canvas> tag.
+  Simple HTML5 Charts using the &lt;canvas&gt; tag.
 
 
 
@@ -690,7 +690,7 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 [site](http://barbajs.org/)  [github](https://github.com/luruke/barba.js)  
 
-  Create badass, fluid and smooth transition between your website's pages.
+  Create badass, fluid and smooth transition between your website&#39;s pages.
 
 
 
@@ -826,7 +826,7 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 [site](http://aerolab.github.io/midnight.js/)  [github](https://github.com/Aerolab/midnight.js)  
 
-  Switch your nav's design on the fly
+  Switch your nav&#39;s design on the fly
 
 
 
@@ -898,7 +898,7 @@ Parcel  [site](https://parceljs.org/)  [github](https://github.com/parcel-bundle
 
 [site](http://selectize.github.io/selectize.js/)  [github](https://github.com/selectize/selectize.js/)  
 
-  Selectize is the hybrid of a textbox and <select> box. It's jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc. 
+  Selectize is the hybrid of a textbox and &lt;select&gt; box. It&#39;s jQuery based and it has autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc. 
 
 
 
